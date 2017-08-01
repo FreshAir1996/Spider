@@ -13,9 +13,12 @@ import datetime
 import MySQLdb
 
 warnings.filterwarnings("ignore")
+
 rule_info = r'\{(.*?)\}'
 info_re = re.compile(rule_info)
+
 FFmpeg.init()
+
 def getHandleforDb(name):
 
     conn = MySQLdb.connect(
@@ -29,14 +32,15 @@ def getHandleforDb(name):
     return conn
 
 #获得整个网页的的list列表
-def get_list_for_web(html):
-    lists = []
-    rule_list = r'<a href="(https://www.indiamp3.com/list/.*?)"'
-    re_list = re.compile(rule_list)
-    for string in open(html):
+def get_list_for_web(htmlfile):
+	lists = []
+	rule_list = r'<a href="(https://www.indiamp3.com/list/.*?)"'
+	re_list = re.compile(rule_list)
+	for string in open(htmlfile):
 		if re.findall(re_list,string):
 			lists.append(re.findall(re_list,string)[0])
-    return lists
+			
+	return lists
 
 #获得某个list列表的所有专辑
 def get_links_for_album(url):
@@ -91,7 +95,7 @@ def get_info_for_album(url,dic):
 		albumname = table.find("b",text=re.compile(r'Album Name:(.*?)')).text.split(":")[-1].strip()
 		dic['albumname'] = albumname
 
-		floder = os.environ['HOME'] +'/audio/'+ "%s/%s/" % (category,albumname)
+		floder = os.environ['HOME'] +'/iptv/audio/'+ "%s/%s/" % (category,albumname)
 		print floder
 
 		if not os.path.exists(floder):
@@ -109,7 +113,7 @@ def get_info_for_album(url,dic):
 			with open(jpgname,"wb") as code:
 				code.write(r.content)
 		else:
-			jpgname = os.environ['HOME'] + '/audio/cover/notavailable.gif'
+			jpgname = os.environ['HOME'] + '/iptv/audio/cover/notavailable.gif'
 			cover = add_head_url(image)
 		
 		#else:
@@ -233,10 +237,10 @@ def getInfoQuickly(url,cur):
 							name_l = floder + dic['songname'] +'.mp3'
 							dic['local_url_l'] = name_l
 							print "Start  Download Music From (%s,%d)" % (url,i)
-							r = requests.get(dic['url_l'],headers=headers)
-							with open(name_l,"wb") as code:
-								code.write(r.content)
-#							down_by_curl(name_l,dic['url_l'])
+#							r = requests.get(dic['url_l'],headers=headers)
+#							with open(name_l,"wb") as code:
+#								code.write(r.content)
+							down_by_curl(name_l,dic['url_l'])
 							tempstring +=("('','%s','%s','%s','%s','%s','%s','%s','%s','%s','%s','%s'),\n" %
 			(dic['category'],dic['albumname'],dic['bitrate'],dic['cover'],
 			dic['songname'],dic['singer'],dic['url_h'],dic['url_l'],dic['local_cover'],dic['local_url_l'],dic['local_url_h']))
@@ -275,19 +279,11 @@ def test(url,fp):
 
 if __name__ == '__main__':
 
-#	dic = {};
-#	url = 'https://www.indiamp3.com/noor-2017-mp3-songs'
-#	url = 'https://www.indiamp3.com/365-days-2015-mp3-songs'
-	url = 'https://www.indiamp3.com/a-aa-2016-mp3-songs'
-#	req = requests.get(url,headers=headers,timeout=10)
-#	soup = BeautifulSoup(req.text,"html.parser")
-#	get_details_for_album(soup,dic)
-#	get_info_for_song(url)
-#	FFmpeg.init()
+	url = 'https://www.indiamp3.com/5-rifles-1973-mp3-songs'
+#	url = 'https://www.indiamp3.com/'
+#	ret = get_list_for_web('../webs/indiamp3.html')
+#	print ret
 	ft = open("tmp.sql","w+")
-#	for link in get_links_for_album("https://www.indiamp3.com/list/X"):
 	test(url,ft)	
 	print os.getcwd()
-#	ft = open("tmp.txt","w+")
-#	save_info(url,ft,clib)
 

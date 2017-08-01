@@ -1,5 +1,6 @@
 #!/usr/bin/python
 #coding:utf-8
+import os
 import sys
 import ctypes
 import MySQLdb
@@ -49,8 +50,6 @@ def save_info(list_album,fp):
 def main_process():
     
     Start = datetime.datetime.now()
-    urls = get_list_for_web("all.html")
-    names = ["./.log/" +(urls[x].rsplit("/",1)[-1])  for x in range(27)]
 
     f0 = open(str(names[0]),"w+")
     fa = open(str(names[1]),"w+")
@@ -75,23 +74,25 @@ def main_process():
     return names
 
 def ttt():
-    
+ 	
+	pwd = os.getcwd()
     Start = datetime.datetime.now()
-    urls = get_list_for_web("indiamp3.html")
-    names = ["./.log/X.sql","./.log/Q.sql"]
+    urls = get_list_for_web('../webs/indiamp3.html')
+    names = ["./.log/" +(urls[x].rsplit("/",1)[-1])  for x in range(27)]
    
-    fx = open(str(names[0]),"w+")
-    fq = open(str(names[1]),"w+")
+    f0 = open(names[0]),"a+")
+    fx = open(str(names[24]),"a+")
 
+    f0_process = mul.Process(target=save_info,args=(urls[0],f0))
     fx_process = mul.Process(target=save_info,args=(urls[24],fx))
-    fq_process = mul.Process(target=save_info,args=(urls[17],fq))
 
+    f0_process.start()
     fx_process.start()
-    fq_process.start()
 
+    f0_process.join()
     fx_process.join()
-    fq_process.join()
     
+	os.chdir(pwd)
     End = datetime.datetime.now()
 
     return names
