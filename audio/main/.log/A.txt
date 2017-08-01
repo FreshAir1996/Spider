@@ -1,0 +1,285 @@
+insert into music values
+('Dhondtay','Abbas Ali Khan','https://www.indiamp3.com/audio/Pakistani%20Artists/Pakistani%20Artists%20Mp3%20Songs/Abbas%20Ali%20Khan/Abbas%20Ali%20Khan/Dhondtay.wma');
+insert into music values
+('Jeene Ka Sahaara Mil Gaya','Adhikar (1986)','https://www.indiamp3.com/audio/Indian%20Movies/Indian%20Movies%20Hindi%20Mp3%20Songs/Adhikar%20(1986)/Songs/Jeene%20Ka%20Sahaara%20Mil%20Gaya%20@%20IndiaMp3.Com.mp3');
+insert into music values
+('Iyanthadi Uyara Poochetiyae','Agaradhi (2009)','https://www.indiamp3.com/audio/Tamil%20Songs/Tamil%20Mp3%20Songs/Agaradhi%20(2009)/Agaradhi%20(2009)/Iyanthadi%20Uyara%20Poochetiyae%20@%20IndiaMp3.Com.mp3'),
+('Mukkona Simhasanam','Agaradhi (2009)','https://www.indiamp3.com/audio/Tamil%20Songs/Tamil%20Mp3%20Songs/Agaradhi%20(2009)/Agaradhi%20(2009)/Mukkona%20Simhasanam%20@%20IndiaMp3.Com.mp3'),
+('Pachchaikili Rendu','Agaradhi (2009)','https://www.indiamp3.com/audio/Tamil%20Songs/Tamil%20Mp3%20Songs/Agaradhi%20(2009)/Agaradhi%20(2009)/Pachchaikili%20Rendu%20@%20IndiaMp3.Com.mp3'),
+('Love Theme Femina','Agaradhi (2009)','https://www.indiamp3.com/audio/Tamil%20Songs/Tamil%20Mp3%20Songs/Agaradhi%20(2009)/Agaradhi%20(2009)/Love%20Theme%20Femina%20@%20IndiaMp3.Com.mp3'),
+('Agaradhi Theme Musiq','Agaradhi (2009)','https://www.indiamp3.com/audio/Tamil%20Songs/Tamil%20Mp3%20Songs/Agaradhi%20(2009)/Agaradhi%20(2009)/Agaradhi%20Theme%20Musiq%20@%20IndiaMp3.Com.mp3'),
+('Mukkona Simhasanam Club Mix','Agaradhi (2009)','https://www.indiamp3.com/audio/Tamil%20Songs/Tamil%20Mp3%20Songs/Agaradhi%20(2009)/Agaradhi%20(2009)/Mukkona%20Simhasanam%20Club%20Mix%20@%20IndiaMp3.Com.mp3'),
+('Vaanam Enbadhe Ellai','Agaradhi (2009)','https://www.indiamp3.com/audio/Tamil%20Songs/Tamil%20Mp3%20Songs/Agaradhi%20(2009)/Agaradhi%20(2009)/Vaanam%20Enbadhe%20Ellai%20@%20IndiaMp3.Com.mp3');
+insert into music values
+('Ponnu Thotha','Agaram (2007)','https://www.indiamp3.com/audio/Tamil%20Songs/Tamil%20Mp3%20Songs/Agaram%20(2007)/Agaram%20(2007)/Ponnu%20Thotha%20@%20IndiaMp3.Com.mp3'),
+('Line Kidaichuduchu','Agaram (2007)','https://www.indiamp3.com/audio/Tamil%20Songs/Tamil%20Mp3%20Songs/Agaram%20(2007)/Agaram%20(2007)/Line%20Kidaichuduchu%20@%20IndiaMp3.Com.mp3'),
+('Tappueagiri Pogum','Agaram (2007)','https://www.indiamp3.com/audio/Tamil%20Songs/Tamil%20Mp3%20Songs/Agaram%20(2007)/Agaram%20(2007)/Tappueagiri%20Pogum%20@%20IndiaMp3.Com.mp3'),
+('Adadaa Adadaa','Agaram (2007)','https://www.indiamp3.com/audio/Tamil%20Songs/Tamil%20Mp3%20Songs/Agaram%20(2007)/Agaram%20(2007)/Adadaa%20Adadaa%20@%20IndiaMp3.Com.mp3'),
+('Unnai Naan','Agaram (2007)','https://www.indiamp3.com/audio/Tamil%20Songs/Tamil%20Mp3%20Songs/Agaram%20(2007)/Agaram%20(2007)/Unnai%20Naan%20@%20IndiaMp3.Com.mp3');
+insert into music values
+('Ithayam','Agarem Malaysian Tamil Pop Album (2009)','https://www.indiamp3.com/audio/Tamil%20Songs/Tamil%20Mp3%20Songs/Agarem%20Malaysian%20Tamil%20Pop%20Album%20(2009)/Agarem%20Malaysian%20Tamil%20Pop%20Album%20(2009)/Ithayam%20@%20IndiaMp3.Com.mp3'),
+('Enna Venum','Agarem Malaysian Tamil Pop Album (2009)','https://www.indiamp3.com/audio/Tamil%20Songs/Tamil%20Mp3%20Songs/Agarem%20Malaysian%20Tamil%20Pop%20Album%20(2009)/Agarem%20Malaysian%20Tamil%20Pop%20Album%20(2009)/Enna%20Venum%20@%20IndiaMp3.Com.mp3'),
+('Sottu Sotta Remix','Agarem Malaysian Tamil Pop Album (2009)','https://www.indiamp3.com/audio/Tamil%20Songs/Tamil%20Mp3%20Songs/Agarem%20Malaysian%20Tamil%20Pop%20Album%20(2009)/Agarem%20Malaysian%20Tamil%20Pop%20Album%20(2009)/Sottu%20Sotta%20Remix%20@%20IndiaMp3.Com.mp3'),
+('Asaigel','Agarem Malaysian Tamil Pop Album (2009)','https://www.indiamp3.com/audio/Tamil%20Songs/Tamil%20Mp3%20Songs/Agarem%20Malaysian%20Tamil%20Pop%20Album%20(2009)/Agarem%20Malaysian%20Tamil%20Pop%20Album%20(2009)/Asaigel%20@%20IndiaMp3.Com.mp3'),
+('Hip Andre','Agarem Malaysian Tamil Pop Album (2009)','https://www.indiamp3.com/audio/Tamil%20Songs/Tamil%20Mp3%20Songs/Agarem%20Malaysian%20Tamil%20Pop%20Album%20(2009)/Agarem%20Malaysian%20Tamil%20Pop%20Album%20(2009)/Hip%20Andre%20@%20IndiaMp3.Com.mp3'),
+('Sottu Sotta','Agarem Malaysian Tamil Pop Album (2009)','https://www.indiamp3.com/audio/Tamil%20Songs/Tamil%20Mp3%20Songs/Agarem%20Malaysian%20Tamil%20Pop%20Album%20(2009)/Agarem%20Malaysian%20Tamil%20Pop%20Album%20(2009)/Sottu%20Sotta%20@%20IndiaMp3.Com.mp3'),
+('Kaadhaley','Agarem Malaysian Tamil Pop Album (2009)','https://www.indiamp3.com/audio/Tamil%20Songs/Tamil%20Mp3%20Songs/Agarem%20Malaysian%20Tamil%20Pop%20Album%20(2009)/Agarem%20Malaysian%20Tamil%20Pop%20Album%20(2009)/Kaadhaley%20@%20IndiaMp3.Com.mp3');
+insert into music values
+('Dialouges','Agent 009 (1980)','https://www.indiamp3.com/audio/Indian%20Movies/Indian%20Movies%20Hindi%20Mp3%20Songs/Agent%20009%20(1980)/songs/Dialouges%20@%20IndiaMp3.Com.mp3'),
+('Aag Laga Di Pani Mein','Agent 009 (1980)','https://www.indiamp3.com/audio/Indian%20Movies/Indian%20Movies%20Hindi%20Mp3%20Songs/Agent%20009%20(1980)/songs/Aag%20Laga%20Di%20Pani%20Mein%20@%20IndiaMp3.Com.mp3'),
+('Maharaja Maharaja','Agent 009 (1980)','https://www.indiamp3.com/audio/Indian%20Movies/Indian%20Movies%20Hindi%20Mp3%20Songs/Agent%20009%20(1980)/songs/Maharaja%20Maharaja%20@%20IndiaMp3.Com.mp3');
+insert into music values
+('Lavleena Aa Gaya Main - Mahendra  Jagdeep And Helen','Agent Vinod (1977)','https://www.indiamp3.com/audio/Indian%20Movies/Indian%20Movies%20Hindi%20Mp3%20Songs/Agent%20Vinod%20(1977)/songs/Lavleena%20Aa%20Gaya%20Main%20-%20Mahendra%20%20Jagdeep%20And%20Helen%20@%20IndiaMp3.Com.mp3'),
+('Sabse Nirala - Mahendra Sandhu','Agent Vinod (1977)','https://www.indiamp3.com/audio/Indian%20Movies/Indian%20Movies%20Hindi%20Mp3%20Songs/Agent%20Vinod%20(1977)/songs/Sabse%20Nirala%20-%20Mahendra%20Sandhu%20@%20IndiaMp3.Com.mp3'),
+('Band Kamren Mein - Mahendra Sandhu And Asha Sachdev','Agent Vinod (1977)','https://www.indiamp3.com/audio/Indian%20Movies/Indian%20Movies%20Hindi%20Mp3%20Songs/Agent%20Vinod%20(1977)/songs/Band%20Kamren%20Mein%20-%20Mahendra%20Sandhu%20And%20Asha%20Sachdev%20@%20IndiaMp3.Com.mp3'),
+('Hum To Nikle Ram Bharose - Jagdeep And Mahendra Sandhu','Agent Vinod (1977)','https://www.indiamp3.com/audio/Indian%20Movies/Indian%20Movies%20Hindi%20Mp3%20Songs/Agent%20Vinod%20(1977)/songs/Hum%20To%20Nikle%20Ram%20Bharose%20-%20Jagdeep%20And%20Mahendra%20Sandhu%20@%20IndiaMp3.Com.mp3'),
+('Mehfil Mein Aaye - Mahendra Sandhu And Asha Sachdev','Agent Vinod (1977)','https://www.indiamp3.com/audio/Indian%20Movies/Indian%20Movies%20Hindi%20Mp3%20Songs/Agent%20Vinod%20(1977)/songs/Mehfil%20Mein%20Aaye%20-%20Mahendra%20Sandhu%20And%20Asha%20Sachdev%20@%20IndiaMp3.Com.mp3');
+insert into music values
+('Pungi','Agent Vinod (2012)','https://www.indiamp3.com/audio/Indian%20Movies/Indian%20Movies%20Hindi%20Mp3%20Songs/Agent%20Vinod%20(2012)/songs/Pungi%20@%20IndiaMp3.Com.mp3'),
+('I Will Do The Talking Tonight (Remix)','Agent Vinod (2012)','https://www.indiamp3.com/audio/Indian%20Movies/Indian%20Movies%20Hindi%20Mp3%20Songs/Agent%20Vinod%20(2012)/songs/I%20Will%20Do%20The%20Talking%20Tonight%20(Remix)%20@%20IndiaMp3.Com.mp3'),
+('Agent Vinod (Theme)','Agent Vinod (2012)','https://www.indiamp3.com/audio/Indian%20Movies/Indian%20Movies%20Hindi%20Mp3%20Songs/Agent%20Vinod%20(2012)/songs/Agent%20Vinod%20(Theme)%20@%20IndiaMp3.Com.mp3'),
+('Raabta (Siyaah Raatein)','Agent Vinod (2012)','https://www.indiamp3.com/audio/Indian%20Movies/Indian%20Movies%20Hindi%20Mp3%20Songs/Agent%20Vinod%20(2012)/songs/Raabta%20(Siyaah%20Raatein)%20@%20IndiaMp3.Com.mp3'),
+('Dil Mera Muft Ka','Agent Vinod (2012)','https://www.indiamp3.com/audio/Indian%20Movies/Indian%20Movies%20Hindi%20Mp3%20Songs/Agent%20Vinod%20(2012)/songs/Dil%20Mera%20Muft%20Ka%20@%20IndiaMp3.Com.mp3'),
+('I Will Do The Talking Tonight','Agent Vinod (2012)','https://www.indiamp3.com/audio/Indian%20Movies/Indian%20Movies%20Hindi%20Mp3%20Songs/Agent%20Vinod%20(2012)/songs/I%20Will%20Do%20The%20Talking%20Tonight%20@%20IndiaMp3.Com.mp3'),
+('Pungi (Remix)','Agent Vinod (2012)','https://www.indiamp3.com/audio/Indian%20Movies/Indian%20Movies%20Hindi%20Mp3%20Songs/Agent%20Vinod%20(2012)/songs/Pungi%20(Remix)%20@%20IndiaMp3.Com.mp3'),
+('Dil Mera Muft Ka (Remix)','Agent Vinod (2012)','https://www.indiamp3.com/audio/Indian%20Movies/Indian%20Movies%20Hindi%20Mp3%20Songs/Agent%20Vinod%20(2012)/songs/Dil%20Mera%20Muft%20Ka%20(Remix)%20@%20IndiaMp3.Com.mp3'),
+('Raabta','Agent Vinod (2012)','https://www.indiamp3.com/audio/Indian%20Movies/Indian%20Movies%20Hindi%20Mp3%20Songs/Agent%20Vinod%20(2012)/songs/Raabta%20@%20IndiaMp3.Com.mp3'),
+('Raabta (Kehte Hain Khuda Ne)','Agent Vinod (2012)','https://www.indiamp3.com/audio/Indian%20Movies/Indian%20Movies%20Hindi%20Mp3%20Songs/Agent%20Vinod%20(2012)/songs/Raabta%20(Kehte%20Hain%20Khuda%20Ne)%20@%20IndiaMp3.Com.mp3'),
+('Raabta (Night In Motel)','Agent Vinod (2012)','https://www.indiamp3.com/audio/Indian%20Movies/Indian%20Movies%20Hindi%20Mp3%20Songs/Agent%20Vinod%20(2012)/songs/Raabta%20(Night%20In%20Motel)%20@%20IndiaMp3.Com.mp3');
+insert into music values
+('Sehra - Roop Kumar Rathod  Additional  Vocals  Shilpa Rao','Aggar (2007)','https://www.indiamp3.com/audio/Indian%20Movies/Indian%20Movies%20Hindi%20Mp3%20Songs/Aggar%20(2007)/songs/Sehra%20-%20Roop%20Kumar%20Rathod%20%20Additional%20%20Vocals%20%20Shilpa%20Rao%20@%20IndiaMp3.com.mp3'),
+('Pass Aaya Kyon - Mithoon And Sharmishtha','Aggar (2007)','https://www.indiamp3.com/audio/Indian%20Movies/Indian%20Movies%20Hindi%20Mp3%20Songs/Aggar%20(2007)/songs/Pass%20Aaya%20Kyon%20-%20Mithoon%20And%20Sharmishtha%20@%20IndiaMp3.com.mp3'),
+('Aagar - Hamza And Tulsi Kumar','Aggar (2007)','https://www.indiamp3.com/audio/Indian%20Movies/Indian%20Movies%20Hindi%20Mp3%20Songs/Aggar%20(2007)/songs/Aagar%20-%20Hamza%20And%20Tulsi%20Kumar%20@%20IndiaMp3.com.mp3'),
+('Nachle (Remix) - Rup And Qurram','Aggar (2007)','https://www.indiamp3.com/audio/Indian%20Movies/Indian%20Movies%20Hindi%20Mp3%20Songs/Aggar%20(2007)/songs/Nachle%20(Remix)%20-%20Rup%20And%20Qurram%20@%20IndiaMp3.com.mp3'),
+('Ke Bin Tere (Remix) - Mithoon  Additional Vocals  Hamza And Kshitij','Aggar (2007)','https://www.indiamp3.com/audio/Indian%20Movies/Indian%20Movies%20Hindi%20Mp3%20Songs/Aggar%20(2007)/songs/Ke%20Bin%20Tere%20(Remix)%20-%20Mithoon%20%20Additional%20Vocals%20%20Hamza%20And%20Kshitij%20@%20IndiaMp3.com.mp3'),
+('Ke Bin Tere - Mithoon Hamza And Kshitij','Aggar (2007)','https://www.indiamp3.com/audio/Indian%20Movies/Indian%20Movies%20Hindi%20Mp3%20Songs/Aggar%20(2007)/songs/Ke%20Bin%20Tere%20-%20Mithoon%20Hamza%20And%20Kshitij%20@%20IndiaMp3.com.mp3'),
+('Nachle - Rup And Qurram','Aggar (2007)','https://www.indiamp3.com/audio/Indian%20Movies/Indian%20Movies%20Hindi%20Mp3%20Songs/Aggar%20(2007)/songs/Nachle%20-%20Rup%20And%20Qurram%20@%20IndiaMp3.com.mp3');
+insert into music values
+('Kahan Laya Mera Yaar','Agnee','https://www.indiamp3.com/audio/Indian%20Movies/Indian%20Movies%20Hindi%20Mp3%20Songs/Agnee/songs/Kahan%20Laya%20Mera%20Yaar%20@%20IndiaMp3.Com.mp3'),
+('Mil Gaye Dil','Agnee','https://www.indiamp3.com/audio/Indian%20Movies/Indian%20Movies%20Hindi%20Mp3%20Songs/Agnee/songs/Mil%20Gaye%20Dil%20@%20IndiaMp3.Com.mp3'),
+('Bichhod Lad Jayega','Agnee','https://www.indiamp3.com/audio/Indian%20Movies/Indian%20Movies%20Hindi%20Mp3%20Songs/Agnee/songs/Bichhod%20Lad%20Jayega%20@%20IndiaMp3.Com.mp3'),
+('Mere Krishna Murari Aa','Agnee','https://www.indiamp3.com/audio/Indian%20Movies/Indian%20Movies%20Hindi%20Mp3%20Songs/Agnee/songs/Mere%20Krishna%20Murari%20Aa%20@%20IndiaMp3.Com.mp3'),
+('O Aayee Baisakhi','Agnee','https://www.indiamp3.com/audio/Indian%20Movies/Indian%20Movies%20Hindi%20Mp3%20Songs/Agnee/songs/O%20Aayee%20Baisakhi%20@%20IndiaMp3.Com.mp3'),
+('Ujale Baaz','Agnee','https://www.indiamp3.com/audio/Indian%20Movies/Indian%20Movies%20Hindi%20Mp3%20Songs/Agnee/songs/Ujale%20Baaz%20@%20IndiaMp3.Com.mp3'),
+('Kabira','Agnee','https://www.indiamp3.com/audio/Indian%20Movies/Indian%20Movies%20Hindi%20Mp3%20Songs/Agnee/songs/Kabira%20@%20IndiaMp3.Com.mp3'),
+('Sadho Re','Agnee','https://www.indiamp3.com/audio/Indian%20Movies/Indian%20Movies%20Hindi%20Mp3%20Songs/Agnee/songs/Sadho%20Re%20@%20IndiaMp3.Com.mp3');
+insert into music values
+('Keh Lene De','Agnee (2007)','https://www.indiamp3.com/audio/Indian%20POP%20Albums/Indian%20POP%20Albums%20Mp3%20Songs/Agnee%20(2007)/songs/Keh%20Lene%20De%20@%20IndiaMp3.com.mp3'),
+('Kuch Ankahee','Agnee (2007)','https://www.indiamp3.com/audio/Indian%20POP%20Albums/Indian%20POP%20Albums%20Mp3%20Songs/Agnee%20(2007)/songs/Kuch%20Ankahee%20@%20IndiaMp3.com.mp3'),
+('The MTV Roadies Theme','Agnee (2007)','https://www.indiamp3.com/audio/Indian%20POP%20Albums/Indian%20POP%20Albums%20Mp3%20Songs/Agnee%20(2007)/songs/The%20MTV%20Roadies%20Theme%20@%20IndiaMp3.com.mp3'),
+('Karvan','Agnee (2007)','https://www.indiamp3.com/audio/Indian%20POP%20Albums/Indian%20POP%20Albums%20Mp3%20Songs/Agnee%20(2007)/songs/Karvan%20@%20IndiaMp3.com.mp3'),
+('Ujale Baaz','Agnee (2007)','https://www.indiamp3.com/audio/Indian%20POP%20Albums/Indian%20POP%20Albums%20Mp3%20Songs/Agnee%20(2007)/songs/Ujale%20Baaz%20@%20IndiaMp3.com.mp3'),
+('Kabira','Agnee (2007)','https://www.indiamp3.com/audio/Indian%20POP%20Albums/Indian%20POP%20Albums%20Mp3%20Songs/Agnee%20(2007)/songs/Kabira%20@%20IndiaMp3.com.mp3'),
+('Shaam Tanha','Agnee (2007)','https://www.indiamp3.com/audio/Indian%20POP%20Albums/Indian%20POP%20Albums%20Mp3%20Songs/Agnee%20(2007)/songs/Shaam%20Tanha%20@%20IndiaMp3.com.mp3'),
+('Sadho Re','Agnee (2007)','https://www.indiamp3.com/audio/Indian%20POP%20Albums/Indian%20POP%20Albums%20Mp3%20Songs/Agnee%20(2007)/songs/Sadho%20Re%20@%20IndiaMp3.com.mp3');
+insert into music values
+('Pankhida O Pankhida','Agneekaal (1993)','https://www.indiamp3.com/audio/Indian%20Movies/Indian%20Movies%20Hindi%20Mp3%20Songs/Agneekaal%20(1993)/songs/Pankhida%20O%20Pankhida%20@%20IndiaMp3.Com.mp3'),
+('Dil Ka Vote Doongi','Agneekaal (1993)','https://www.indiamp3.com/audio/Indian%20Movies/Indian%20Movies%20Hindi%20Mp3%20Songs/Agneekaal%20(1993)/songs/Dil%20Ka%20Vote%20Doongi%20@%20IndiaMp3.Com.mp3'),
+('Maangti Hoon Sajan (Duet)','Agneekaal (1993)','https://www.indiamp3.com/audio/Indian%20Movies/Indian%20Movies%20Hindi%20Mp3%20Songs/Agneekaal%20(1993)/songs/Maangti%20Hoon%20Sajan%20(Duet)%20@%20IndiaMp3.Com.mp3'),
+('Zameen Aur Aasman','Agneekaal (1993)','https://www.indiamp3.com/audio/Indian%20Movies/Indian%20Movies%20Hindi%20Mp3%20Songs/Agneekaal%20(1993)/songs/Zameen%20Aur%20Aasman%20@%20IndiaMp3.Com.mp3'),
+('Maangti Hoon Sajan (Sad)','Agneekaal (1993)','https://www.indiamp3.com/audio/Indian%20Movies/Indian%20Movies%20Hindi%20Mp3%20Songs/Agneekaal%20(1993)/songs/Maangti%20Hoon%20Sajan%20(Sad)%20@%20IndiaMp3.Com.mp3');
+insert into music values
+('Ali Baba Milgaya','Agneepath (1990)','https://www.indiamp3.com/audio/Indian%20Movies/Indian%20Movies%20Hindi%20Mp3%20Songs/Agneepath%20(1990)/songs/Ali%20Baba%20Milgaya%20@%20IndiaMp3.Com.mp3'),
+('Ganpanti Bappa Morya','Agneepath (1990)','https://www.indiamp3.com/audio/Indian%20Movies/Indian%20Movies%20Hindi%20Mp3%20Songs/Agneepath%20(1990)/songs/Ganpanti%20Bappa%20Morya%20@%20IndiaMp3.Com.mp3'),
+('I Am Krishan Iyer','Agneepath (1990)','https://www.indiamp3.com/audio/Indian%20Movies/Indian%20Movies%20Hindi%20Mp3%20Songs/Agneepath%20(1990)/songs/I%20Am%20Krishan%20Iyer%20@%20IndiaMp3.Com.mp3'),
+('Kisko Tha Pata','Agneepath (1990)','https://www.indiamp3.com/audio/Indian%20Movies/Indian%20Movies%20Hindi%20Mp3%20Songs/Agneepath%20(1990)/songs/Kisko%20Tha%20Pata%20@%20IndiaMp3.Com.mp3');
+insert into music values
+('_Deva Shree Ganesha','Agneepath (2012)','https://www.indiamp3.com/audio/Indian%20Movies/Indian%20Movies%20Hindi%20Mp3%20Songs/Agneepath%20(2012)/songs/_Deva%20Shree%20Ganesha%20@%20IndiaMp3.Com.mp3'),
+('_Gun Gun Guna','Agneepath (2012)','https://www.indiamp3.com/audio/Indian%20Movies/Indian%20Movies%20Hindi%20Mp3%20Songs/Agneepath%20(2012)/songs/_Gun%20Gun%20Guna%20@%20IndiaMp3.Com.mp3'),
+('Abhi Mujh Mein Kahin','Agneepath (2012)','https://www.indiamp3.com/audio/Indian%20Movies/Indian%20Movies%20Hindi%20Mp3%20Songs/Agneepath%20(2012)/songs/_Abhi%20Mujh%20Mein%20Kahin%20@%20IndiaMp3.Com.mp3'),
+('_Chikni Chameli','Agneepath (2012)','https://www.indiamp3.com/audio/Indian%20Movies/Indian%20Movies%20Hindi%20Mp3%20Songs/Agneepath%20(2012)/songs/_Chikni%20Chameli%20@%20IndiaMp3.Com.mp3'),
+('_O Saiyyan','Agneepath (2012)','https://www.indiamp3.com/audio/Indian%20Movies/Indian%20Movies%20Hindi%20Mp3%20Songs/Agneepath%20(2012)/songs/_O%20Saiyyan%20@%20IndiaMp3.Com.mp3'),
+('_Shah Ka Rutba','Agneepath (2012)','https://www.indiamp3.com/audio/Indian%20Movies/Indian%20Movies%20Hindi%20Mp3%20Songs/Agneepath%20(2012)/songs/_Shah%20Ka%20Rutba%20@%20IndiaMp3.Com.mp3');
+insert into music values
+('Ninukari- K S Chithra','Agni Natchathiram (1988)','https://www.indiamp3.com/audio/Tamil%20Songs/Tamil%20Mp3%20Songs/Agni%20Natchathiram%20(1988)/Agni%20Natchathiram%20(1988)/Ninukari-%20K%20S%20Chithra%20@%20IndiaMp3.Com.mp3'),
+('Rojapoo- S Janaki','Agni Natchathiram (1988)','https://www.indiamp3.com/audio/Tamil%20Songs/Tamil%20Mp3%20Songs/Agni%20Natchathiram%20(1988)/Agni%20Natchathiram%20(1988)/Rojapoo-%20S%20Janaki%20@%20IndiaMp3.Com.mp3'),
+('Raja Rajdhi Raja- Ilayaraja','Agni Natchathiram (1988)','https://www.indiamp3.com/audio/Tamil%20Songs/Tamil%20Mp3%20Songs/Agni%20Natchathiram%20(1988)/Agni%20Natchathiram%20(1988)/Raja%20Rajdhi%20Raja-%20Ilayaraja%20@%20IndiaMp3.Com.mp3'),
+('Vaa Vaa Anbae Anbae- K J Yesudas','Agni Natchathiram (1988)','https://www.indiamp3.com/audio/Tamil%20Songs/Tamil%20Mp3%20Songs/Agni%20Natchathiram%20(1988)/Agni%20Natchathiram%20(1988)/Vaa%20Vaa%20Anbae%20Anbae-%20K%20J%20Yesudas%20@%20IndiaMp3.Com.mp3'),
+('Oru Poongavanam- S Janaki','Agni Natchathiram (1988)','https://www.indiamp3.com/audio/Tamil%20Songs/Tamil%20Mp3%20Songs/Agni%20Natchathiram%20(1988)/Agni%20Natchathiram%20(1988)/Oru%20Poongavanam-%20S%20Janaki%20@%20IndiaMp3.Com.mp3'),
+('Thoonga Vizhikal Yerandu- K J Yesudas','Agni Natchathiram (1988)','https://www.indiamp3.com/audio/Tamil%20Songs/Tamil%20Mp3%20Songs/Agni%20Natchathiram%20(1988)/Agni%20Natchathiram%20(1988)/Thoonga%20Vizhikal%20Yerandu-%20K%20J%20Yesudas%20@%20IndiaMp3.Com.mp3');
+insert into music values
+('Kondapai Nindugaa','Agni Pareeksha','https://www.indiamp3.com/audio/Indian%20Movies/Indian%20Movies%20Hindi%20Mp3%20Songs/Agni%20Pareeksha/songs/Kondapai%20Nindugaa%20@%20IndiaMp3.Com.mp3'),
+('Mil Gai Achanak Mujhe Har Khushi','Agni Pareeksha','https://www.indiamp3.com/audio/Indian%20Movies/Indian%20Movies%20Hindi%20Mp3%20Songs/Agni%20Pareeksha/songs/Mil%20Gai%20Achanak%20Mujhe%20Har%20Khushi%20@%20IndiaMp3.Com.mp3'),
+('Aaj Koi Nahin Apna','Agni Pareeksha','https://www.indiamp3.com/audio/Indian%20Movies/Indian%20Movies%20Hindi%20Mp3%20Songs/Agni%20Pareeksha/songs/Aaj%20Koi%20Nahin%20Apna%20@%20IndiaMp3.Com.mp3'),
+('Pyar Pyar Hai','Agni Pareeksha','https://www.indiamp3.com/audio/Indian%20Movies/Indian%20Movies%20Hindi%20Mp3%20Songs/Agni%20Pareeksha/songs/Pyar%20Pyar%20Hai%20@%20IndiaMp3.Com.mp3'),
+('O Re Man Gungun','Agni Pareeksha','https://www.indiamp3.com/audio/Indian%20Movies/Indian%20Movies%20Hindi%20Mp3%20Songs/Agni%20Pareeksha/songs/O%20Re%20Man%20Gungun%20@%20IndiaMp3.Com.mp3');
+insert into music values
+('Bababaloo Ek Mein Ek Tu ( Helen)','Agni Rekha (1973)','https://www.indiamp3.com/audio/Indian%20Movies/Indian%20Movies%20Hindi%20Mp3%20Songs/Agni%20Rekha%20(1973)/Songs/Bababaloo%20Ek%20Mein%20Ek%20Tu%20(%20Helen)%20@%20IndiaMp3.Com.mp3'),
+('Jaag Mere Moti','Agni Rekha (1973)','https://www.indiamp3.com/audio/Indian%20Movies/Indian%20Movies%20Hindi%20Mp3%20Songs/Agni%20Rekha%20(1973)/Songs/Jaag%20Mere%20Moti%20@%20IndiaMp3.Com.mp3'),
+('Main Ispar Tu Uspar','Agni Rekha (1973)','https://www.indiamp3.com/audio/Indian%20Movies/Indian%20Movies%20Hindi%20Mp3%20Songs/Agni%20Rekha%20(1973)/Songs/Main%20Ispar%20Tu%20Uspar%20@%20IndiaMp3.Com.mp3');
+insert into music values
+('Mujhko Dilbar Yaar','Agni Sakshi (1996)','https://www.indiamp3.com/audio/Indian%20Movies/Indian%20Movies%20Hindi%20Mp3%20Songs/Agni%20Sakshi%20(1996)/songs/Mujhko%20Dilbar%20Yaar%20@%20IndiaMp3.com.mp3'),
+('Mere Kaleje Se','Agni Sakshi (1996)','https://www.indiamp3.com/audio/Indian%20Movies/Indian%20Movies%20Hindi%20Mp3%20Songs/Agni%20Sakshi%20(1996)/songs/Mere%20Kaleje%20Se%20@%20IndiaMp3.com.mp3'),
+('Waada Karo Dil Se','Agni Sakshi (1996)','https://www.indiamp3.com/audio/Indian%20Movies/Indian%20Movies%20Hindi%20Mp3%20Songs/Agni%20Sakshi%20(1996)/songs/Waada%20Karo%20Dil%20Se%20@%20IndiaMp3.com.mp3'),
+('O Yaara Dil Lagana','Agni Sakshi (1996)','https://www.indiamp3.com/audio/Indian%20Movies/Indian%20Movies%20Hindi%20Mp3%20Songs/Agni%20Sakshi%20(1996)/songs/O%20Yaara%20Dil%20Lagana%20@%20IndiaMp3.com.mp3'),
+('O Piya O Piya','Agni Sakshi (1996)','https://www.indiamp3.com/audio/Indian%20Movies/Indian%20Movies%20Hindi%20Mp3%20Songs/Agni%20Sakshi%20(1996)/songs/O%20Piya%20O%20Piya%20@%20IndiaMp3.com.mp3'),
+('Tu Meri Gulfam Hai','Agni Sakshi (1996)','https://www.indiamp3.com/audio/Indian%20Movies/Indian%20Movies%20Hindi%20Mp3%20Songs/Agni%20Sakshi%20(1996)/songs/Tu%20Meri%20Gulfam%20Hai%20@%20IndiaMp3.com.mp3');
+insert into music values
+('Din Andhiyaare','Agni Varsha (2002)','https://www.indiamp3.com/audio/Indian%20Movies/Indian%20Movies%20Hindi%20Mp3%20Songs/Agni%20Varsha%20(2002)/songs/Din%20Andhiyaare%20@%20IndiaMp3.Com.mp3'),
+('K K - Dole Re','Agni Varsha (2002)','https://www.indiamp3.com/audio/Indian%20Movies/Indian%20Movies%20Hindi%20Mp3%20Songs/Agni%20Varsha%20(2002)/songs/K%20K%20-%20Dole%20Re.mp3'),
+('Anchal Ki Chhaya','Agni Varsha (2002)','https://www.indiamp3.com/audio/Indian%20Movies/Indian%20Movies%20Hindi%20Mp3%20Songs/Agni%20Varsha%20(2002)/songs/Anchal%20Ki%20Chhaya%20@%20IndiaMp3.Com.mp3'),
+('Prem Ki Varsha','Agni Varsha (2002)','https://www.indiamp3.com/audio/Indian%20Movies/Indian%20Movies%20Hindi%20Mp3%20Songs/Agni%20Varsha%20(2002)/songs/Prem%20Ki%20Varsha%20@%20IndiaMp3.Com.mp3'),
+('Dole Re','Agni Varsha (2002)','https://www.indiamp3.com/audio/Indian%20Movies/Indian%20Movies%20Hindi%20Mp3%20Songs/Agni%20Varsha%20(2002)/songs/Dole%20Re%20@%20IndiaMp3.Com.mp3'),
+('Chal Re Sajan','Agni Varsha (2002)','https://www.indiamp3.com/audio/Indian%20Movies/Indian%20Movies%20Hindi%20Mp3%20Songs/Agni%20Varsha%20(2002)/songs/Chal%20Re%20Sajan%20@%20IndiaMp3.Com.mp3');
+insert into music values
+('Arzi Dil Ji Meri','Agnichakra (1997)','https://www.indiamp3.com/audio/Indian%20Movies/Indian%20Movies%20Hindi%20Mp3%20Songs/Agnichakra%20(1997)/songs/Arzi%20Dil%20Ji%20Meri%20@%20IndiaMp3.Com.mp3'),
+('Gup Chup Chup','Agnichakra (1997)','https://www.indiamp3.com/audio/Indian%20Movies/Indian%20Movies%20Hindi%20Mp3%20Songs/Agnichakra%20(1997)/songs/Gup%20Chup%20Chup%20@%20IndiaMp3.Com.mp3'),
+('Mera Naam Action','Agnichakra (1997)','https://www.indiamp3.com/audio/Indian%20Movies/Indian%20Movies%20Hindi%20Mp3%20Songs/Agnichakra%20(1997)/songs/Mera%20Naam%20Action%20@%20IndiaMp3.Com.mp3'),
+('Paisa Hi  Paisa','Agnichakra (1997)','https://www.indiamp3.com/audio/Indian%20Movies/Indian%20Movies%20Hindi%20Mp3%20Songs/Agnichakra%20(1997)/songs/Paisa%20Hi%20%20Paisa%20@%20IndiaMp3.Com.mp3'),
+('Aila Rani Dil','Agnichakra (1997)','https://www.indiamp3.com/audio/Indian%20Movies/Indian%20Movies%20Hindi%20Mp3%20Songs/Agnichakra%20(1997)/songs/Aila%20Rani%20Dil%20@%20IndiaMp3.Com.mp3');
+insert into music values
+('Khamoshi','Agnipankh (2004)','https://www.indiamp3.com/audio/Indian%20Movies/Indian%20Movies%20Hindi%20Mp3%20Songs/Agnipankh%20(2004)/songs/Khamoshi%20@%20IndiaMp3.Com.mp3'),
+('Rabba','Agnipankh (2004)','https://www.indiamp3.com/audio/Indian%20Movies/Indian%20Movies%20Hindi%20Mp3%20Songs/Agnipankh%20(2004)/songs/Rabba%20@%20IndiaMp3.Com.mp3'),
+('Ishq Ishq Mein','Agnipankh (2004)','https://www.indiamp3.com/audio/Indian%20Movies/Indian%20Movies%20Hindi%20Mp3%20Songs/Agnipankh%20(2004)/songs/Ishq%20Ishq%20Mein%20@%20IndiaMp3.Com.mp3'),
+('Jaaneja','Agnipankh (2004)','https://www.indiamp3.com/audio/Indian%20Movies/Indian%20Movies%20Hindi%20Mp3%20Songs/Agnipankh%20(2004)/songs/Jaaneja%20@%20IndiaMp3.Com.mp3'),
+('Mera Dil Fida Hai','Agnipankh (2004)','https://www.indiamp3.com/audio/Indian%20Movies/Indian%20Movies%20Hindi%20Mp3%20Songs/Agnipankh%20(2004)/songs/Mera%20Dil%20Fida%20Hai%20@%20IndiaMp3.Com.mp3'),
+('Janmabhoomi','Agnipankh (2004)','https://www.indiamp3.com/audio/Indian%20Movies/Indian%20Movies%20Hindi%20Mp3%20Songs/Agnipankh%20(2004)/songs/Janmabhoomi%20@%20IndiaMp3.Com.mp3');
+insert into music values
+('Solah Baras Intezar Karliya','Agniputra (2000)','https://www.indiamp3.com/audio/Indian%20Movies/Indian%20Movies%20Hindi%20Mp3%20Songs/Agniputra%20(2000)/songs/Solah%20Baras%20Intezar%20Karliya%20@%20IndiaMp3.Com.mp3'),
+('Choona Na Mera Ghungta','Agniputra (2000)','https://www.indiamp3.com/audio/Indian%20Movies/Indian%20Movies%20Hindi%20Mp3%20Songs/Agniputra%20(2000)/songs/Choona%20Na%20Mera%20Ghungta%20@%20IndiaMp3.Com.mp3'),
+('Kisne Dekha Kisne Jana','Agniputra (2000)','https://www.indiamp3.com/audio/Indian%20Movies/Indian%20Movies%20Hindi%20Mp3%20Songs/Agniputra%20(2000)/songs/Kisne%20Dekha%20Kisne%20Jana%20@%20IndiaMp3.Com.mp3'),
+('Ek Hassen Ladki','Agniputra (2000)','https://www.indiamp3.com/audio/Indian%20Movies/Indian%20Movies%20Hindi%20Mp3%20Songs/Agniputra%20(2000)/songs/Ek%20Hassen%20Ladki%20@%20IndiaMp3.Com.mp3'),
+('Tu Ne Mujhe Pukara','Agniputra (2000)','https://www.indiamp3.com/audio/Indian%20Movies/Indian%20Movies%20Hindi%20Mp3%20Songs/Agniputra%20(2000)/songs/Tu%20Ne%20Mujhe%20Pukara%20@%20IndiaMp3.Com.mp3');
+insert into music values
+('Suno Suno Baat Pate Ki','Agreement (1980)','https://www.indiamp3.com/audio/Indian%20Movies/Indian%20Movies%20Hindi%20Mp3%20Songs/Agreement%20(1980)/songs/Suno%20Suno%20Baat%20Pate%20Ki%20@%20IndiaMp3.com.mp3'),
+('Jane Kyon Mujhe','Agreement (1980)','https://www.indiamp3.com/audio/Indian%20Movies/Indian%20Movies%20Hindi%20Mp3%20Songs/Agreement%20(1980)/songs/Jane%20Kyon%20Mujhe%20@%20IndiaMp3.com.mp3'),
+('Aapne Pyar Diya','Agreement (1980)','https://www.indiamp3.com/audio/Indian%20Movies/Indian%20Movies%20Hindi%20Mp3%20Songs/Agreement%20(1980)/songs/Aapne%20Pyar%20Diya%20@%20IndiaMp3.com.mp3'),
+('Jeena Bhi Koi Jeena Hai','Agreement (1980)','https://www.indiamp3.com/audio/Indian%20Movies/Indian%20Movies%20Hindi%20Mp3%20Songs/Agreement%20(1980)/songs/Jeena%20Bhi%20Koi%20Jeena%20Hai%20@%20IndiaMp3.com.mp3');
+insert into music values
+('Kiss U Day And Night','Agyaat (2009)','https://www.indiamp3.com/audio/Indian%20Movies/Indian%20Movies%20Hindi%20Mp3%20Songs/Agyaat%20(2009)/songs/Kiss%20U%20Day%20And%20Night%20@%20IndiaMp3.Com.mp3'),
+('Jungle Jungle','Agyaat (2009)','https://www.indiamp3.com/audio/Indian%20Movies/Indian%20Movies%20Hindi%20Mp3%20Songs/Agyaat%20(2009)/songs/Jungle%20Jungle%20@%20IndiaMp3.Com.mp3'),
+('Na Koi','Agyaat (2009)','https://www.indiamp3.com/audio/Indian%20Movies/Indian%20Movies%20Hindi%20Mp3%20Songs/Agyaat%20(2009)/songs/Na%20Koi%20@%20IndiaMp3.Com.mp3'),
+('Jai Shiv Bum Shambu','Agyaat (2009)','https://www.indiamp3.com/audio/Indian%20Movies/Indian%20Movies%20Hindi%20Mp3%20Songs/Agyaat%20(2009)/songs/Jai%20Shiv%20Bum%20Shambu%20@%20IndiaMp3.Com.mp3'),
+('Sunsakte Ho','Agyaat (2009)','https://www.indiamp3.com/audio/Indian%20Movies/Indian%20Movies%20Hindi%20Mp3%20Songs/Agyaat%20(2009)/songs/Sunsakte%20Ho%20@%20IndiaMp3.Com.mp3'),
+('Kiss Mix','Agyaat (2009)','https://www.indiamp3.com/audio/Indian%20Movies/Indian%20Movies%20Hindi%20Mp3%20Songs/Agyaat%20(2009)/songs/Kiss%20Mix%20@%20IndiaMp3.Com.mp3'),
+('Khoobsurat','Agyaat (2009)','https://www.indiamp3.com/audio/Indian%20Movies/Indian%20Movies%20Hindi%20Mp3%20Songs/Agyaat%20(2009)/songs/Khoobsurat%20@%20IndiaMp3.Com.mp3');
+insert into music values
+('Theme Music 9','Ah Aah (2005)','https://www.indiamp3.com/audio/Tamil%20Songs/Tamil%20Mp3%20Songs/Ah%20Aah%20(2005)/Songs/Theme%20Music%209%20@%20IndiaMp3.Com.mp3'),
+('Theme Music 8','Ah Aah (2005)','https://www.indiamp3.com/audio/Tamil%20Songs/Tamil%20Mp3%20Songs/Ah%20Aah%20(2005)/Songs/Theme%20Music%208%20@%20IndiaMp3.Com.mp3'),
+('Thazhuvudu','Ah Aah (2005)','https://www.indiamp3.com/audio/Tamil%20Songs/Tamil%20Mp3%20Songs/Ah%20Aah%20(2005)/Songs/Thazhuvudu%20@%20IndiaMp3.Com.mp3'),
+('Maramkothiye','Ah Aah (2005)','https://www.indiamp3.com/audio/Tamil%20Songs/Tamil%20Mp3%20Songs/Ah%20Aah%20(2005)/Songs/Maramkothiye%20@%20IndiaMp3.Com.mp3'),
+('Theme Music 13','Ah Aah (2005)','https://www.indiamp3.com/audio/Tamil%20Songs/Tamil%20Mp3%20Songs/Ah%20Aah%20(2005)/Songs/Theme%20Music%2013%20@%20IndiaMp3.Com.mp3'),
+('Theme Music 12','Ah Aah (2005)','https://www.indiamp3.com/audio/Tamil%20Songs/Tamil%20Mp3%20Songs/Ah%20Aah%20(2005)/Songs/Theme%20Music%2012%20@%20IndiaMp3.Com.mp3'),
+('Theme Music 1','Ah Aah (2005)','https://www.indiamp3.com/audio/Tamil%20Songs/Tamil%20Mp3%20Songs/Ah%20Aah%20(2005)/Songs/Theme%20Music%201%20@%20IndiaMp3.Com.mp3'),
+('Theme Music 10','Ah Aah (2005)','https://www.indiamp3.com/audio/Tamil%20Songs/Tamil%20Mp3%20Songs/Ah%20Aah%20(2005)/Songs/Theme%20Music%2010%20@%20IndiaMp3.Com.mp3'),
+('Theme Music 7','Ah Aah (2005)','https://www.indiamp3.com/audio/Tamil%20Songs/Tamil%20Mp3%20Songs/Ah%20Aah%20(2005)/Songs/Theme%20Music%207%20@%20IndiaMp3.Com.mp3'),
+('Theme Music 6','Ah Aah (2005)','https://www.indiamp3.com/audio/Tamil%20Songs/Tamil%20Mp3%20Songs/Ah%20Aah%20(2005)/Songs/Theme%20Music%206%20@%20IndiaMp3.Com.mp3'),
+('Theme Music 5','Ah Aah (2005)','https://www.indiamp3.com/audio/Tamil%20Songs/Tamil%20Mp3%20Songs/Ah%20Aah%20(2005)/Songs/Theme%20Music%205%20@%20IndiaMp3.Com.mp3'),
+('Theme Music 14','Ah Aah (2005)','https://www.indiamp3.com/audio/Tamil%20Songs/Tamil%20Mp3%20Songs/Ah%20Aah%20(2005)/Songs/Theme%20Music%2014%20@%20IndiaMp3.Com.mp3'),
+('Mayilirage','Ah Aah (2005)','https://www.indiamp3.com/audio/Tamil%20Songs/Tamil%20Mp3%20Songs/Ah%20Aah%20(2005)/Songs/Mayilirage%20@%20IndiaMp3.Com.mp3'),
+('Theme Music 3','Ah Aah (2005)','https://www.indiamp3.com/audio/Tamil%20Songs/Tamil%20Mp3%20Songs/Ah%20Aah%20(2005)/Songs/Theme%20Music%203%20@%20IndiaMp3.Com.mp3'),
+('Anbe Aaruyire','Ah Aah (2005)','https://www.indiamp3.com/audio/Tamil%20Songs/Tamil%20Mp3%20Songs/Ah%20Aah%20(2005)/Songs/Anbe%20Aaruyire%20@%20IndiaMp3.Com.mp3'),
+('Varugirai','Ah Aah (2005)','https://www.indiamp3.com/audio/Tamil%20Songs/Tamil%20Mp3%20Songs/Ah%20Aah%20(2005)/Songs/Varugirai%20@%20IndiaMp3.Com.mp3'),
+('Thigu Thigu','Ah Aah (2005)','https://www.indiamp3.com/audio/Tamil%20Songs/Tamil%20Mp3%20Songs/Ah%20Aah%20(2005)/Songs/Thigu%20Thigu%20@%20IndiaMp3.Com.mp3'),
+('Theme Music 2','Ah Aah (2005)','https://www.indiamp3.com/audio/Tamil%20Songs/Tamil%20Mp3%20Songs/Ah%20Aah%20(2005)/Songs/Theme%20Music%202%20@%20IndiaMp3.Com.mp3'),
+('Theme Music 4','Ah Aah (2005)','https://www.indiamp3.com/audio/Tamil%20Songs/Tamil%20Mp3%20Songs/Ah%20Aah%20(2005)/Songs/Theme%20Music%204%20@%20IndiaMp3.Com.mp3'),
+('Theme Music 11','Ah Aah (2005)','https://www.indiamp3.com/audio/Tamil%20Songs/Tamil%20Mp3%20Songs/Ah%20Aah%20(2005)/Songs/Theme%20Music%2011%20@%20IndiaMp3.Com.mp3');
+insert into music values
+('Nasha Nasha - Sunita Rao','Ahankaar (1995)','https://www.indiamp3.com/audio/Indian%20Movies/Indian%20Movies%20Hindi%20Mp3%20Songs/Ahankaar%20(1995)/songs/Nasha%20Nasha%20-%20Sunita%20Rao%20@%20IndiaMp3.com.mp3'),
+('Koi Bhi Na Jaane - Abhijeet','Ahankaar (1995)','https://www.indiamp3.com/audio/Indian%20Movies/Indian%20Movies%20Hindi%20Mp3%20Songs/Ahankaar%20(1995)/songs/Koi%20Bhi%20Na%20Jaane%20-%20Abhijeet%20@%20IndiaMp3.com.mp3'),
+('Oh Bamba Oh - Kumar Sanu Sadhana Sargam','Ahankaar (1995)','https://www.indiamp3.com/audio/Indian%20Movies/Indian%20Movies%20Hindi%20Mp3%20Songs/Ahankaar%20(1995)/songs/Oh%20Bamba%20Oh%20-%20Kumar%20Sanu%20Sadhana%20Sargam%20@%20IndiaMp3.com.mp3'),
+('Tum Mujhe Itna Pyar - Kumar Sanu Alka Yagnik','Ahankaar (1995)','https://www.indiamp3.com/audio/Indian%20Movies/Indian%20Movies%20Hindi%20Mp3%20Songs/Ahankaar%20(1995)/songs/Tum%20Mujhe%20Itna%20Pyar%20-%20Kumar%20Sanu%20Alka%20Yagnik%20@%20IndiaMp3.com.mp3'),
+('Itna Bhi Na Chaho Mujhe - Kumar Sanu Alka Yagnik','Ahankaar (1995)','https://www.indiamp3.com/audio/Indian%20Movies/Indian%20Movies%20Hindi%20Mp3%20Songs/Ahankaar%20(1995)/songs/Itna%20Bhi%20Na%20Chaho%20Mujhe%20-%20Kumar%20Sanu%20Alka%20Yagnik%20@%20IndiaMp3.com.mp3'),
+('Pyar Iska Naam Hai - Sadhana Sargam','Ahankaar (1995)','https://www.indiamp3.com/audio/Indian%20Movies/Indian%20Movies%20Hindi%20Mp3%20Songs/Ahankaar%20(1995)/songs/Pyar%20Iska%20Naam%20Hai%20-%20Sadhana%20Sargam%20@%20IndiaMp3.com.mp3'),
+('Yaaron Na Jaane - Abhijeet','Ahankaar (1995)','https://www.indiamp3.com/audio/Indian%20Movies/Indian%20Movies%20Hindi%20Mp3%20Songs/Ahankaar%20(1995)/songs/Yaaron%20Na%20Jaane%20-%20Abhijeet%20@%20IndiaMp3.com.mp3'),
+('Mummy Ne Pucha - Sadhana Sargam','Ahankaar (1995)','https://www.indiamp3.com/audio/Indian%20Movies/Indian%20Movies%20Hindi%20Mp3%20Songs/Ahankaar%20(1995)/songs/Mummy%20Ne%20Pucha%20-%20Sadhana%20Sargam%20@%20IndiaMp3.com.mp3'),
+('Rama Rama - Poornima','Ahankaar (1995)','https://www.indiamp3.com/audio/Indian%20Movies/Indian%20Movies%20Hindi%20Mp3%20Songs/Ahankaar%20(1995)/songs/Rama%20Rama%20-%20Poornima%20@%20IndiaMp3.com.mp3'),
+('Tere Andar Meri Jaan - Alka Yagnik Udit Narayan','Ahankaar (1995)','https://www.indiamp3.com/audio/Indian%20Movies/Indian%20Movies%20Hindi%20Mp3%20Songs/Ahankaar%20(1995)/songs/Tere%20Andar%20Meri%20Jaan%20-%20Alka%20Yagnik%20Udit%20Narayan%20@%20IndiaMp3.com.mp3'),
+('Jhalak - Various','Ahankaar (1995)','https://www.indiamp3.com/audio/Indian%20Movies/Indian%20Movies%20Hindi%20Mp3%20Songs/Ahankaar%20(1995)/songs/Jhalak%20-%20Various%20@%20IndiaMp3.com.mp3');
+insert into music values
+('Mujhe Dena Re Badhai Gaon Walo','Ahinsa (1979)','https://www.indiamp3.com/audio/Indian%20Movies/Indian%20Movies%20Hindi%20Mp3%20Songs/Ahinsa%20(1979)/songs/Mujhe%20Dena%20Re%20Badhai%20Gaon%20Walo%20@%20IndiaMp3.Com.mp3'),
+('Main Ne Tan Man De Dala','Ahinsa (1979)','https://www.indiamp3.com/audio/Indian%20Movies/Indian%20Movies%20Hindi%20Mp3%20Songs/Ahinsa%20(1979)/songs/Main%20Ne%20Tan%20Man%20De%20Dala%20@%20IndiaMp3.Com.mp3'),
+('Main Hoon Kaun','Ahinsa (1979)','https://www.indiamp3.com/audio/Indian%20Movies/Indian%20Movies%20Hindi%20Mp3%20Songs/Ahinsa%20(1979)/songs/Main%20Hoon%20Kaun%20@%20IndiaMp3.Com.mp3'),
+('Thoda Thoda Sach','Ahinsa (1979)','https://www.indiamp3.com/audio/Indian%20Movies/Indian%20Movies%20Hindi%20Mp3%20Songs/Ahinsa%20(1979)/songs/Thoda%20Thoda%20Sach%20@%20IndiaMp3.Com.mp3');
+insert into music values
+('Doh Chariya','Ahista (1990)','https://www.indiamp3.com/audio/Indian%20Movies/Indian%20Movies%20Hindi%20Mp3%20Songs/Ahista%20(1990)/songs/Doh%20Chariya%20@%20IndiaMp3.Com.mp3');
+insert into music values
+('Ishq Ne Tere (k.k. And Jayesh Gandhi) Ahista Ahista','Ahista Ahista','https://www.indiamp3.com/audio/Indian%20Movies/Indian%20Movies%20Hindi%20Mp3%20Songs/Ahista%20Ahista/songs/Ishq%20Ne%20Tere%20(k.k.%20And%20Jayesh%20Gandhi)%20Ahista%20Ahista%20(IndiaMp3).mp3'),
+('Dil Naiyyo Maane Re (remix - Akbar Sami)','Ahista Ahista','https://www.indiamp3.com/audio/Indian%20Movies/Indian%20Movies%20Hindi%20Mp3%20Songs/Ahista%20Ahista/songs/Dil%20Naiyyo%20Maane%20Re%20(remix%20-%20Akbar%20Sami)%20(IndiaMp3).mp3'),
+('Allah Kare (himesh Reshammiya) Ahista Ahista','Ahista Ahista','https://www.indiamp3.com/audio/Indian%20Movies/Indian%20Movies%20Hindi%20Mp3%20Songs/Ahista%20Ahista/songs/Allah%20Kare%20(himesh%20Reshammiya)%20Ahista%20Ahista%20(IndiaMp3).mp3'),
+('Love You Unconditionally (himesh Reshammiya) Ahista Ahista','Ahista Ahista','https://www.indiamp3.com/audio/Indian%20Movies/Indian%20Movies%20Hindi%20Mp3%20Songs/Ahista%20Ahista/songs/Love%20You%20Unconditionally%20(himesh%20Reshammiya)%20Ahista%20Ahista%20(IndiaMp3).mp3'),
+('Love You Unconditionally (remix - Akbar Sami)','Ahista Ahista','https://www.indiamp3.com/audio/Indian%20Movies/Indian%20Movies%20Hindi%20Mp3%20Songs/Ahista%20Ahista/songs/Love%20You%20Unconditionally%20(remix%20-%20Akbar%20Sami)%20(IndiaMp3).mp3'),
+('Tanha Tere Bagair (remix - Akbar Sami)','Ahista Ahista','https://www.indiamp3.com/audio/Indian%20Movies/Indian%20Movies%20Hindi%20Mp3%20Songs/Ahista%20Ahista/songs/Tanha%20Tere%20Bagair%20(remix%20-%20Akbar%20Sami)%20(IndiaMp3).mp3'),
+('Tum Jo Mile (kunal Gangawala) Ahista Ahista','Ahista Ahista','https://www.indiamp3.com/audio/Indian%20Movies/Indian%20Movies%20Hindi%20Mp3%20Songs/Ahista%20Ahista/songs/Tum%20Jo%20Mile%20(kunal%20Gangawala)%20Ahista%20Ahista%20(IndiaMp3).mp3'),
+('Ahista Ahista (remix - Akbar Sami)','Ahista Ahista','https://www.indiamp3.com/audio/Indian%20Movies/Indian%20Movies%20Hindi%20Mp3%20Songs/Ahista%20Ahista/songs/Ahista%20Ahista%20(remix%20-%20Akbar%20Sami)%20(IndiaMp3).mp3'),
+('Ahista Ahista (himesh Reshammiya)','Ahista Ahista','https://www.indiamp3.com/audio/Indian%20Movies/Indian%20Movies%20Hindi%20Mp3%20Songs/Ahista%20Ahista/songs/Ahista%20Ahista%20(himesh%20Reshammiya)%20(IndiaMp3).mp3'),
+('Allah Kare (remix - Akbar Sami) Ahista Ahista','Ahista Ahista','https://www.indiamp3.com/audio/Indian%20Movies/Indian%20Movies%20Hindi%20Mp3%20Songs/Ahista%20Ahista/songs/Allah%20Kare%20(remix%20-%20Akbar%20Sami)%20Ahista%20Ahista%20(IndiaMp3).mp3'),
+('Aawan Akhiyan Jawan Akhiya (qawwali) (himesh Reshammiya  Jayesh Gandhi  Hashim And Aftab) Ahista Ahista','Ahista Ahista','https://www.indiamp3.com/audio/Indian%20Movies/Indian%20Movies%20Hindi%20Mp3%20Songs/Ahista%20Ahista/songs/Aawan%20Akhiyan%20Jawan%20Akhiya%20(qawwali)%20(himesh%20Reshammiya%20%20Jayesh%20Gandhi%20%20Hashim%20And%20Aftab)%20Ahista%20Ahista%20(IndiaMp3).mp3'),
+('Dil Naiyyo Maane Re (himesh Reshammiya And Tulsi Kumar)','Ahista Ahista','https://www.indiamp3.com/audio/Indian%20Movies/Indian%20Movies%20Hindi%20Mp3%20Songs/Ahista%20Ahista/songs/Dil%20Naiyyo%20Maane%20Re%20(himesh%20Reshammiya%20And%20Tulsi%20Kumar)%20(IndiaMp3).mp3'),
+('Tanha Tere Bagair (sunidhi Chauhan And K.k.) Ahista Ahista','Ahista Ahista','https://www.indiamp3.com/audio/Indian%20Movies/Indian%20Movies%20Hindi%20Mp3%20Songs/Ahista%20Ahista/songs/Tanha%20Tere%20Bagair%20(sunidhi%20Chauhan%20And%20K.k.)%20Ahista%20Ahista%20(IndiaMp3).mp3'),
+('Ishq Ne Tere (remix - Akbar Sami)','Ahista Ahista','https://www.indiamp3.com/audio/Indian%20Movies/Indian%20Movies%20Hindi%20Mp3%20Songs/Ahista%20Ahista/songs/Ishq%20Ne%20Tere%20(remix%20-%20Akbar%20Sami)%20(IndiaMp3).mp3'),
+('Allah Kare (unplugged)','Ahista Ahista','https://www.indiamp3.com/audio/Indian%20Movies/Indian%20Movies%20Hindi%20Mp3%20Songs/Ahista%20Ahista/songs/Allah%20Kare%20(unplugged)%20(IndiaMp3).mp3');
+insert into music values
+('Mana Teri Nazar Ne','Ahista Ahista (1981)','https://www.indiamp3.com/audio/Indian%20Movies/Indian%20Movies%20Hindi%20Mp3%20Songs/Ahista%20Ahista%20(1981)/songs/Mana%20Teri%20Nazar%20Ne%20@%20IndiaMp3.com.mp3'),
+('Hum Ko Mile Tum Tum Ko Mile Hum','Ahista Ahista (1981)','https://www.indiamp3.com/audio/Indian%20Movies/Indian%20Movies%20Hindi%20Mp3%20Songs/Ahista%20Ahista%20(1981)/songs/Hum%20Ko%20Mile%20Tum%20Tum%20Ko%20Mile%20Hum%20@%20IndiaMp3.com.mp3'),
+('Kabhi Kisiko Muqammal Jahan Nahin Milta','Ahista Ahista (1981)','https://www.indiamp3.com/audio/Indian%20Movies/Indian%20Movies%20Hindi%20Mp3%20Songs/Ahista%20Ahista%20(1981)/songs/Kabhi%20Kisiko%20Muqammal%20Jahan%20Nahin%20Milta%20@%20IndiaMp3.com.mp3'),
+('Bin Bulaye Hum Chale Aye','Ahista Ahista (1981)','https://www.indiamp3.com/audio/Indian%20Movies/Indian%20Movies%20Hindi%20Mp3%20Songs/Ahista%20Ahista%20(1981)/songs/Bin%20Bulaye%20Hum%20Chale%20Aye%20@%20IndiaMp3.com.mp3'),
+('Kain Saal Pahle','Ahista Ahista (1981)','https://www.indiamp3.com/audio/Indian%20Movies/Indian%20Movies%20Hindi%20Mp3%20Songs/Ahista%20Ahista%20(1981)/songs/Kain%20Saal%20Pahle%20@%20IndiaMp3.com.mp3'),
+('Nazar Se Phool Chunti Hai Nazar','Ahista Ahista (1981)','https://www.indiamp3.com/audio/Indian%20Movies/Indian%20Movies%20Hindi%20Mp3%20Songs/Ahista%20Ahista%20(1981)/songs/Nazar%20Se%20Phool%20Chunti%20Hai%20Nazar%20@%20IndiaMp3.com.mp3'),
+('Jab Kabhi Khwab Chamakta Hai','Ahista Ahista (1981)','https://www.indiamp3.com/audio/Indian%20Movies/Indian%20Movies%20Hindi%20Mp3%20Songs/Ahista%20Ahista%20(1981)/songs/Jab%20Kabhi%20Khwab%20Chamakta%20Hai%20@%20IndiaMp3.com.mp3'),
+('Kabhi Kisiko Maqammal Jahan Nahin Milta','Ahista Ahista (1981)','https://www.indiamp3.com/audio/Indian%20Movies/Indian%20Movies%20Hindi%20Mp3%20Songs/Ahista%20Ahista%20(1981)/songs/Kabhi%20Kisiko%20Maqammal%20Jahan%20Nahin%20Milta%20@%20IndiaMp3.com.mp3');
+insert into music values
+('Sharabi','Ahmad Dawood Eqbal (Chashman-e Abi)','https://www.indiamp3.com/audio/Afghani%20Songs/Afghani%20Mp3%20Songs%20Collection/Ahmad%20Dawood%20Eqbal%20(Chashman-e%20Abi)/songs/Sharabi%20@%20IndiaMp3.Com.mp3'),
+('Oh Dukhtar','Ahmad Dawood Eqbal (Chashman-e Abi)','https://www.indiamp3.com/audio/Afghani%20Songs/Afghani%20Mp3%20Songs%20Collection/Ahmad%20Dawood%20Eqbal%20(Chashman-e%20Abi)/songs/Oh%20Dukhtar%20@%20IndiaMp3.Com.mp3'),
+('Oh Dukhtar Afghani','Ahmad Dawood Eqbal (Chashman-e Abi)','https://www.indiamp3.com/audio/Afghani%20Songs/Afghani%20Mp3%20Songs%20Collection/Ahmad%20Dawood%20Eqbal%20(Chashman-e%20Abi)/songs/Oh%20Dukhtar%20Afghani%20@%20IndiaMp3.Com.mp3'),
+('Khosh Noma','Ahmad Dawood Eqbal (Chashman-e Abi)','https://www.indiamp3.com/audio/Afghani%20Songs/Afghani%20Mp3%20Songs%20Collection/Ahmad%20Dawood%20Eqbal%20(Chashman-e%20Abi)/songs/Khosh%20Noma%20@%20IndiaMp3.Com.mp3'),
+('Pashto','Ahmad Dawood Eqbal (Chashman-e Abi)','https://www.indiamp3.com/audio/Afghani%20Songs/Afghani%20Mp3%20Songs%20Collection/Ahmad%20Dawood%20Eqbal%20(Chashman-e%20Abi)/songs/Pashto%20@%20IndiaMp3.Com.mp3'),
+('PanJaBi','Ahmad Dawood Eqbal (Chashman-e Abi)','https://www.indiamp3.com/audio/Afghani%20Songs/Afghani%20Mp3%20Songs%20Collection/Ahmad%20Dawood%20Eqbal%20(Chashman-e%20Abi)/songs/PanJaBi%20@%20IndiaMp3.Com.mp3'),
+('Dukhtar Khob Hazara','Ahmad Dawood Eqbal (Chashman-e Abi)','https://www.indiamp3.com/audio/Afghani%20Songs/Afghani%20Mp3%20Songs%20Collection/Ahmad%20Dawood%20Eqbal%20(Chashman-e%20Abi)/songs/Dukhtar%20Khob%20Hazara%20@%20IndiaMp3.Com.mp3'),
+('AsaLaaM','Ahmad Dawood Eqbal (Chashman-e Abi)','https://www.indiamp3.com/audio/Afghani%20Songs/Afghani%20Mp3%20Songs%20Collection/Ahmad%20Dawood%20Eqbal%20(Chashman-e%20Abi)/songs/AsaLaaM%20@%20IndiaMp3.Com.mp3'),
+('Beheshta','Ahmad Dawood Eqbal (Chashman-e Abi)','https://www.indiamp3.com/audio/Afghani%20Songs/Afghani%20Mp3%20Songs%20Collection/Ahmad%20Dawood%20Eqbal%20(Chashman-e%20Abi)/songs/Beheshta%20@%20IndiaMp3.Com.mp3'),
+('Arosi','Ahmad Dawood Eqbal (Chashman-e Abi)','https://www.indiamp3.com/audio/Afghani%20Songs/Afghani%20Mp3%20Songs%20Collection/Ahmad%20Dawood%20Eqbal%20(Chashman-e%20Abi)/songs/Arosi%20@%20IndiaMp3.Com.mp3'),
+('Allah Yaar','Ahmad Dawood Eqbal (Chashman-e Abi)','https://www.indiamp3.com/audio/Afghani%20Songs/Afghani%20Mp3%20Songs%20Collection/Ahmad%20Dawood%20Eqbal%20(Chashman-e%20Abi)/songs/Allah%20Yaar%20@%20IndiaMp3.Com.mp3'),
+('ChashmaNe Abi','Ahmad Dawood Eqbal (Chashman-e Abi)','https://www.indiamp3.com/audio/Afghani%20Songs/Afghani%20Mp3%20Songs%20Collection/Ahmad%20Dawood%20Eqbal%20(Chashman-e%20Abi)/songs/ChashmaNe%20Abi%20@%20IndiaMp3.Com.mp3');
+insert into music values
+('Dekha Maine Nahin','Ahmad Jahanzaib - Laut Aao','https://www.indiamp3.com/audio/Pakistani%20Artists/Pakistani%20Artists%20Mp3%20Songs/Ahmad%20Jahanzaib%20-%20Laut%20Aao/songs/Dekha%20Maine%20Nahin%20@%20IndiaMp3.Com.mp3'),
+('Lagan Lagi','Ahmad Jahanzaib - Laut Aao','https://www.indiamp3.com/audio/Pakistani%20Artists/Pakistani%20Artists%20Mp3%20Songs/Ahmad%20Jahanzaib%20-%20Laut%20Aao/songs/Lagan%20Lagi%20@%20IndiaMp3.Com.mp3'),
+('Tere Bina Ji Na','Ahmad Jahanzaib - Laut Aao','https://www.indiamp3.com/audio/Pakistani%20Artists/Pakistani%20Artists%20Mp3%20Songs/Ahmad%20Jahanzaib%20-%20Laut%20Aao/songs/Tere%20Bina%20Ji%20Na%20@%20IndiaMp3.Com.mp3'),
+('Tere Bina Ji Na (the Blues Mix)','Ahmad Jahanzaib - Laut Aao','https://www.indiamp3.com/audio/Pakistani%20Artists/Pakistani%20Artists%20Mp3%20Songs/Ahmad%20Jahanzaib%20-%20Laut%20Aao/songs/Tere%20Bina%20Ji%20Na%20(the%20Blues%20Mix)%20@%20IndiaMp3.Com.mp3'),
+('Jis Ko Bhi Lageya','Ahmad Jahanzaib - Laut Aao','https://www.indiamp3.com/audio/Pakistani%20Artists/Pakistani%20Artists%20Mp3%20Songs/Ahmad%20Jahanzaib%20-%20Laut%20Aao/songs/Jis%20Ko%20Bhi%20Lageya%20@%20IndiaMp3.Com.mp3'),
+('Chandni Raat Main','Ahmad Jahanzaib - Laut Aao','https://www.indiamp3.com/audio/Pakistani%20Artists/Pakistani%20Artists%20Mp3%20Songs/Ahmad%20Jahanzaib%20-%20Laut%20Aao/songs/Chandni%20Raat%20Main%20@%20IndiaMp3.Com.mp3'),
+('Laut Aao','Ahmad Jahanzaib - Laut Aao','https://www.indiamp3.com/audio/Pakistani%20Artists/Pakistani%20Artists%20Mp3%20Songs/Ahmad%20Jahanzaib%20-%20Laut%20Aao/songs/Laut%20Aao%20@%20IndiaMp3.Com.mp3'),
+('Jab Tumhari Yaad','Ahmad Jahanzaib - Laut Aao','https://www.indiamp3.com/audio/Pakistani%20Artists/Pakistani%20Artists%20Mp3%20Songs/Ahmad%20Jahanzaib%20-%20Laut%20Aao/songs/Jab%20Tumhari%20Yaad%20@%20IndiaMp3.Com.mp3'),
+('Main Aur Tu','Ahmad Jahanzaib - Laut Aao','https://www.indiamp3.com/audio/Pakistani%20Artists/Pakistani%20Artists%20Mp3%20Songs/Ahmad%20Jahanzaib%20-%20Laut%20Aao/songs/Main%20Aur%20Tu%20@%20IndiaMp3.Com.mp3'),
+('Bol Mahiya Ve','Ahmad Jahanzaib - Laut Aao','https://www.indiamp3.com/audio/Pakistani%20Artists/Pakistani%20Artists%20Mp3%20Songs/Ahmad%20Jahanzaib%20-%20Laut%20Aao/songs/Bol%20Mahiya%20Ve%20@%20IndiaMp3.Com.mp3'),
+('Main Aur Tu (dance Mix)','Ahmad Jahanzaib - Laut Aao','https://www.indiamp3.com/audio/Pakistani%20Artists/Pakistani%20Artists%20Mp3%20Songs/Ahmad%20Jahanzaib%20-%20Laut%20Aao/songs/Main%20Aur%20Tu%20(dance%20Mix)%20@%20IndiaMp3.Com.mp3'),
+('Chandni Raat Main (remix)','Ahmad Jahanzaib - Laut Aao','https://www.indiamp3.com/audio/Pakistani%20Artists/Pakistani%20Artists%20Mp3%20Songs/Ahmad%20Jahanzaib%20-%20Laut%20Aao/songs/Chandni%20Raat%20Main%20(remix)%20@%20IndiaMp3.Com.mp3');
+insert into music values
+('Maadar','Ahmad Jawad Karimi (Asheqaan)','https://www.indiamp3.com/audio/Afghani%20Songs/Afghani%20Mp3%20Songs%20Collection/Ahmad%20Jawad%20Karimi%20(Asheqaan)/songs/Maadar%20@%20IndiaMp3.Com.mp3'),
+('Emshab','Ahmad Jawad Karimi (Asheqaan)','https://www.indiamp3.com/audio/Afghani%20Songs/Afghani%20Mp3%20Songs%20Collection/Ahmad%20Jawad%20Karimi%20(Asheqaan)/songs/Emshab%20@%20IndiaMp3.Com.mp3'),
+('Aziz-e Man','Ahmad Jawad Karimi (Asheqaan)','https://www.indiamp3.com/audio/Afghani%20Songs/Afghani%20Mp3%20Songs%20Collection/Ahmad%20Jawad%20Karimi%20(Asheqaan)/songs/Aziz-e%20Man%20@%20IndiaMp3.Com.mp3'),
+('Medaanie','Ahmad Jawad Karimi (Asheqaan)','https://www.indiamp3.com/audio/Afghani%20Songs/Afghani%20Mp3%20Songs%20Collection/Ahmad%20Jawad%20Karimi%20(Asheqaan)/songs/Medaanie%20@%20IndiaMp3.Com.mp3'),
+('Mard-e Namard','Ahmad Jawad Karimi (Asheqaan)','https://www.indiamp3.com/audio/Afghani%20Songs/Afghani%20Mp3%20Songs%20Collection/Ahmad%20Jawad%20Karimi%20(Asheqaan)/songs/Mard-e%20Namard%20@%20IndiaMp3.Com.mp3'),
+('Chang-e Khob Royan','Ahmad Jawad Karimi (Asheqaan)','https://www.indiamp3.com/audio/Afghani%20Songs/Afghani%20Mp3%20Songs%20Collection/Ahmad%20Jawad%20Karimi%20(Asheqaan)/songs/Chang-e%20Khob%20Royan%20@%20IndiaMp3.Com.mp3'),
+('Khana-e Roya','Ahmad Jawad Karimi (Asheqaan)','https://www.indiamp3.com/audio/Afghani%20Songs/Afghani%20Mp3%20Songs%20Collection/Ahmad%20Jawad%20Karimi%20(Asheqaan)/songs/Khana-e%20Roya%20@%20IndiaMp3.Com.mp3'),
+('Har Do Jahan','Ahmad Jawad Karimi (Asheqaan)','https://www.indiamp3.com/audio/Afghani%20Songs/Afghani%20Mp3%20Songs%20Collection/Ahmad%20Jawad%20Karimi%20(Asheqaan)/songs/Har%20Do%20Jahan%20@%20IndiaMp3.Com.mp3'),
+('Qataghani','Ahmad Jawad Karimi (Asheqaan)','https://www.indiamp3.com/audio/Afghani%20Songs/Afghani%20Mp3%20Songs%20Collection/Ahmad%20Jawad%20Karimi%20(Asheqaan)/songs/Qataghani%20@%20IndiaMp3.Com.mp3'),
+('Asheqaan','Ahmad Jawad Karimi (Asheqaan)','https://www.indiamp3.com/audio/Afghani%20Songs/Afghani%20Mp3%20Songs%20Collection/Ahmad%20Jawad%20Karimi%20(Asheqaan)/songs/Asheqaan%20@%20IndiaMp3.Com.mp3');
+insert into music values
+('Awaleen Deedaar','Ahmad Jawid Sharif (Awaleen Deedaar)','https://www.indiamp3.com/audio/Afghani%20Songs/Afghani%20Mp3%20Songs%20Collection/Ahmad%20Jawid%20Sharif%20(Awaleen%20Deedaar)/songs/Awaleen%20Deedaar%20@%20IndiaMp3.Com.mp3'),
+('Shah Aamad','Ahmad Jawid Sharif (Awaleen Deedaar)','https://www.indiamp3.com/audio/Afghani%20Songs/Afghani%20Mp3%20Songs%20Collection/Ahmad%20Jawid%20Sharif%20(Awaleen%20Deedaar)/songs/Shah%20Aamad%20@%20IndiaMp3.Com.mp3'),
+('Sharmegi Jenai','Ahmad Jawid Sharif (Awaleen Deedaar)','https://www.indiamp3.com/audio/Afghani%20Songs/Afghani%20Mp3%20Songs%20Collection/Ahmad%20Jawid%20Sharif%20(Awaleen%20Deedaar)/songs/Sharmegi%20Jenai%20@%20IndiaMp3.Com.mp3'),
+('Shame Arosi','Ahmad Jawid Sharif (Awaleen Deedaar)','https://www.indiamp3.com/audio/Afghani%20Songs/Afghani%20Mp3%20Songs%20Collection/Ahmad%20Jawid%20Sharif%20(Awaleen%20Deedaar)/songs/Shame%20Arosi%20@%20IndiaMp3.Com.mp3'),
+('Amel','Ahmad Jawid Sharif (Awaleen Deedaar)','https://www.indiamp3.com/audio/Afghani%20Songs/Afghani%20Mp3%20Songs%20Collection/Ahmad%20Jawid%20Sharif%20(Awaleen%20Deedaar)/songs/Amel%20@%20IndiaMp3.Com.mp3'),
+('Borda Qharaar','Ahmad Jawid Sharif (Awaleen Deedaar)','https://www.indiamp3.com/audio/Afghani%20Songs/Afghani%20Mp3%20Songs%20Collection/Ahmad%20Jawid%20Sharif%20(Awaleen%20Deedaar)/songs/Borda%20Qharaar%20@%20IndiaMp3.Com.mp3'),
+('Sarwe Kheraman','Ahmad Jawid Sharif (Awaleen Deedaar)','https://www.indiamp3.com/audio/Afghani%20Songs/Afghani%20Mp3%20Songs%20Collection/Ahmad%20Jawid%20Sharif%20(Awaleen%20Deedaar)/songs/Sarwe%20Kheraman%20@%20IndiaMp3.Com.mp3'),
+('Yaar Shom','Ahmad Jawid Sharif (Awaleen Deedaar)','https://www.indiamp3.com/audio/Afghani%20Songs/Afghani%20Mp3%20Songs%20Collection/Ahmad%20Jawid%20Sharif%20(Awaleen%20Deedaar)/songs/Yaar%20Shom%20@%20IndiaMp3.Com.mp3'),
+('ajik Dokhtarak','Ahmad Jawid Sharif (Awaleen Deedaar)','https://www.indiamp3.com/audio/Afghani%20Songs/Afghani%20Mp3%20Songs%20Collection/Ahmad%20Jawid%20Sharif%20(Awaleen%20Deedaar)/songs/ajik%20Dokhtarak%20@%20IndiaMp3.Com.mp3'),
+('Asalaam','Ahmad Jawid Sharif (Awaleen Deedaar)','https://www.indiamp3.com/audio/Afghani%20Songs/Afghani%20Mp3%20Songs%20Collection/Ahmad%20Jawid%20Sharif%20(Awaleen%20Deedaar)/songs/Asalaam%20@%20IndiaMp3.Com.mp3'),
+('Aahesta Meri','Ahmad Jawid Sharif (Awaleen Deedaar)','https://www.indiamp3.com/audio/Afghani%20Songs/Afghani%20Mp3%20Songs%20Collection/Ahmad%20Jawid%20Sharif%20(Awaleen%20Deedaar)/songs/Aahesta%20Meri%20@%20IndiaMp3.Com.mp3'),
+('Bada Bada','Ahmad Jawid Sharif (Awaleen Deedaar)','https://www.indiamp3.com/audio/Afghani%20Songs/Afghani%20Mp3%20Songs%20Collection/Ahmad%20Jawid%20Sharif%20(Awaleen%20Deedaar)/songs/Bada%20Bada%20@%20IndiaMp3.Com.mp3'),
+('Nakreeze','Ahmad Jawid Sharif (Awaleen Deedaar)','https://www.indiamp3.com/audio/Afghani%20Songs/Afghani%20Mp3%20Songs%20Collection/Ahmad%20Jawid%20Sharif%20(Awaleen%20Deedaar)/songs/Nakreeze%20@%20IndiaMp3.Com.mp3');
+insert into music values
+('Jelwa','Ahmad Jawid Sharif (KanKaash)','https://www.indiamp3.com/audio/Afghani%20Songs/Afghani%20Mp3%20Songs%20Collection/Ahmad%20Jawid%20Sharif%20(KanKaash)/songs/Jelwa%20@%20IndiaMp3.Com.mp3'),
+('Beya Beya','Ahmad Jawid Sharif (KanKaash)','https://www.indiamp3.com/audio/Afghani%20Songs/Afghani%20Mp3%20Songs%20Collection/Ahmad%20Jawid%20Sharif%20(KanKaash)/songs/Beya%20Beya%20@%20IndiaMp3.Com.mp3'),
+('Baraan Dai','Ahmad Jawid Sharif (KanKaash)','https://www.indiamp3.com/audio/Afghani%20Songs/Afghani%20Mp3%20Songs%20Collection/Ahmad%20Jawid%20Sharif%20(KanKaash)/songs/Baraan%20Dai%20@%20IndiaMp3.Com.mp3'),
+('Shah-e Mardaan','Ahmad Jawid Sharif (KanKaash)','https://www.indiamp3.com/audio/Afghani%20Songs/Afghani%20Mp3%20Songs%20Collection/Ahmad%20Jawid%20Sharif%20(KanKaash)/songs/Shah-e%20Mardaan%20@%20IndiaMp3.Com.mp3'),
+('Paizeeb','Ahmad Jawid Sharif (KanKaash)','https://www.indiamp3.com/audio/Afghani%20Songs/Afghani%20Mp3%20Songs%20Collection/Ahmad%20Jawid%20Sharif%20(KanKaash)/songs/Paizeeb%20@%20IndiaMp3.Com.mp3'),
+('Ahesta Meri (Mix)','Ahmad Jawid Sharif (KanKaash)','https://www.indiamp3.com/audio/Afghani%20Songs/Afghani%20Mp3%20Songs%20Collection/Ahmad%20Jawid%20Sharif%20(KanKaash)/songs/Ahesta%20Meri%20(Mix)%20@%20IndiaMp3.Com.mp3'),
+('Naaz-O Eshwa','Ahmad Jawid Sharif (KanKaash)','https://www.indiamp3.com/audio/Afghani%20Songs/Afghani%20Mp3%20Songs%20Collection/Ahmad%20Jawid%20Sharif%20(KanKaash)/songs/Naaz-O%20Eshwa%20@%20IndiaMp3.Com.mp3'),
+('Gozashta Haa','Ahmad Jawid Sharif (KanKaash)','https://www.indiamp3.com/audio/Afghani%20Songs/Afghani%20Mp3%20Songs%20Collection/Ahmad%20Jawid%20Sharif%20(KanKaash)/songs/Gozashta%20Haa%20@%20IndiaMp3.Com.mp3'),
+('Yaara Nazaneena','Ahmad Jawid Sharif (KanKaash)','https://www.indiamp3.com/audio/Afghani%20Songs/Afghani%20Mp3%20Songs%20Collection/Ahmad%20Jawid%20Sharif%20(KanKaash)/songs/Yaara%20Nazaneena%20@%20IndiaMp3.Com.mp3'),
+('Cake Arose','Ahmad Jawid Sharif (KanKaash)','https://www.indiamp3.com/audio/Afghani%20Songs/Afghani%20Mp3%20Songs%20Collection/Ahmad%20Jawid%20Sharif%20(KanKaash)/songs/Cake%20Arose%20@%20IndiaMp3.Com.mp3'),
+('Mother','Ahmad Jawid Sharif (KanKaash)','https://www.indiamp3.com/audio/Afghani%20Songs/Afghani%20Mp3%20Songs%20Collection/Ahmad%20Jawid%20Sharif%20(KanKaash)/songs/Mother%20@%20IndiaMp3.Com.mp3'),
+('Naaz-O Eshwa (Punjabi mix','Ahmad Jawid Sharif (KanKaash)','https://www.indiamp3.com/audio/Afghani%20Songs/Afghani%20Mp3%20Songs%20Collection/Ahmad%20Jawid%20Sharif%20(KanKaash)/songs/Naaz-O%20Eshwa%20(Punjabi%20mix%20@%20IndiaMp3.Com.mp3'),
+('Wafa','Ahmad Jawid Sharif (KanKaash)','https://www.indiamp3.com/audio/Afghani%20Songs/Afghani%20Mp3%20Songs%20Collection/Ahmad%20Jawid%20Sharif%20(KanKaash)/songs/Wafa%20@%20IndiaMp3.Com.mp3'),

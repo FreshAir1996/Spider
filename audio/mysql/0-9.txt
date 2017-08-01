@@ -1,0 +1,29 @@
+insert into music values
+('Chim Chimiya','16 December (2002)','https://www.indiamp3.com/audio/Indian%20Movies/Indian%20Movies%20Hindi%20Mp3%20Songs/16%20December%20(2002)/songs/Chim%20Chimiya%20@%20IndiaMp3.Com.mp3');
+insert into music values
+('Yaar','4 My Sinz','https://www.indiamp3.com/audio/Indian%20POP%20Albums/Indian%20POP%20Albums%20Mp3%20Songs/4%20My%20Sinz/songs/Yaar%20@%20IndiaMp3.Com.mp3');
+insert into music values
+('Rim Jhim Rim Jhim','1942 - A Love Story (1993)','https://www.indiamp3.com/audio/Indian%20Movies/Indian%20Movies%20Hindi%20Mp3%20Songs/1942%20-%20A%20Love%20Story%20(1993)/songs/Rim%20Jhim%20Rim%20Jhim%20@%20IndiaMp3.Com.mp3');
+insert into music values
+('Kaise Bataaoon','3G (2013)','https://www.indiamp3.com/audio/Indian%20Movies/Indian%20Movies%20Hindi%20Mp3%20Songs/3G%20(2013)/songs/Kaise%20Bataaoon%20@%20IndiaMp3.Com.mp3');
+insert into music values
+('Eagle Sa Ego Hai','18.11 A Code Of Secrecy (2014)','https://www.indiamp3.com/audio/Indian%20Movies/Indian%20Movies%20Hindi%20Mp3%20Songs/18.11%20A%20Code%20Of%20Secrecy%20(2014)/songs/Eagle%20Sa%20Ego%20Hai%20@%20IndiaMp3.Com.mp3');
+insert into music values
+('Poolu Pooyu','1947 A Love Story (2011)','https://www.indiamp3.com/audio/Tamil%20Songs/Tamil%20Mp3%20Songs/1947%20A%20Love%20Story%20(2011)/1947%20A%20Love%20Story%20(2011)/Poolu%20Pooyu%20@%20IndiaMp3.Com.mp3');
+insert into music values
+('Iddu Katti Mettu Poddu','12B (2001)','https://www.indiamp3.com/audio/Tamil%20Songs/Tamil%20Mp3%20Songs/12B%20(2001)/12B%20(2001)/Iddu%20Katti%20Mettu%20Poddu%20@%20IndiaMp3.Com.mp3');
+insert into music values
+('Andaaniki Nirvachanam','365 Days (2015)','https://www.indiamp3.com/audio/Tamil%20Songs/Tamil%20Mp3%20Songs/365%20Days%20(2015)/365%20Days%20(2015)/Andaaniki%20Nirvachanam%20@%20IndiaMp3.Com.mp3');
+insert into music values
+('Aye Mere Khuda (320 Kbps) - Rahat Fateh Ali Khan - Swati Sharma','1-13-7 Ek Tera Saath (2016)','https://www.indiamp3.com/audio/Indian%20Movies/Indian%20Movies%20Hindi%20Mp3%20Songs/1-13-7%20Ek%20Tera%20Saath%20(2016)/songs/Aye%20Mere%20Khuda%20(320%20Kbps)%20-%20Rahat%20Fateh%20Ali%20Khan%20-%20Swati%20Sharma.mp3'),
+('Saiyyan (128 Kbps) - Sonu Nigam - Swati Sharma','1-13-7 Ek Tera Saath (2016)','https://www.indiamp3.com/audio/Indian%20Movies/Indian%20Movies%20Hindi%20Mp3%20Songs/1-13-7%20Ek%20Tera%20Saath%20(2016)/songs/Saiyyan%20(128%20Kbps)%20-%20Sonu%20Nigam%20-%20Swati%20Sharma.mp3'),
+('Ek Tera Saath (320 Kbps) - Rahat Fateh Ali Khan - Swati Sharma','1-13-7 Ek Tera Saath (2016)','https://www.indiamp3.com/audio/Indian%20Movies/Indian%20Movies%20Hindi%20Mp3%20Songs/1-13-7%20Ek%20Tera%20Saath%20(2016)/songs/Ek%20Tera%20Saath%20(320%20Kbps)%20-%20Rahat%20Fateh%20Ali%20Khan%20-%20Swati%20Sharma.mp3'),
+('Ek Tera Saath (128 Kbps) - Rahat Fateh Ali Khan - Swati Sharma','1-13-7 Ek Tera Saath (2016)','https://www.indiamp3.com/audio/Indian%20Movies/Indian%20Movies%20Hindi%20Mp3%20Songs/1-13-7%20Ek%20Tera%20Saath%20(2016)/songs/Ek%20Tera%20Saath%20(128%20Kbps)%20-%20Rahat%20Fateh%20Ali%20Khan%20-%20Swati%20Sharma.mp3'),
+('Aye Mere Khuda (128 Kbps) - Rahat Fateh Ali Khan - Swati Sharma','1-13-7 Ek Tera Saath (2016)','https://www.indiamp3.com/audio/Indian%20Movies/Indian%20Movies%20Hindi%20Mp3%20Songs/1-13-7%20Ek%20Tera%20Saath%20(2016)/songs/Aye%20Mere%20Khuda%20(128%20Kbps)%20-%20Rahat%20Fateh%20Ali%20Khan%20-%20Swati%20Sharma.mp3'),
+('Pakeeza (128 Kbps) - KK - Swati Sharma - Ali Aslam','1-13-7 Ek Tera Saath (2016)','https://www.indiamp3.com/audio/Indian%20Movies/Indian%20Movies%20Hindi%20Mp3%20Songs/1-13-7%20Ek%20Tera%20Saath%20(2016)/songs/Pakeeza%20(128%20Kbps)%20-%20KK%20-%20Swati%20Sharma%20-%20Ali%20Aslam.mp3'),
+('Queen (320 Kbps) - Shahid Mallya - Bhoomi Trivedi','1-13-7 Ek Tera Saath (2016)','https://www.indiamp3.com/audio/Indian%20Movies/Indian%20Movies%20Hindi%20Mp3%20Songs/1-13-7%20Ek%20Tera%20Saath%20(2016)/songs/Queen%20(320%20Kbps)%20-%20Shahid%20Mallya%20-%20Bhoomi%20Trivedi.mp3'),
+('Humsafar (320 Kbps) - Swati Sharma','1-13-7 Ek Tera Saath (2016)','https://www.indiamp3.com/audio/Indian%20Movies/Indian%20Movies%20Hindi%20Mp3%20Songs/1-13-7%20Ek%20Tera%20Saath%20(2016)/songs/Humsafar%20(320%20Kbps)%20-%20Swati%20Sharma.mp3'),
+('Humsafar (128 Kbps) - Swati Sharma','1-13-7 Ek Tera Saath (2016)','https://www.indiamp3.com/audio/Indian%20Movies/Indian%20Movies%20Hindi%20Mp3%20Songs/1-13-7%20Ek%20Tera%20Saath%20(2016)/songs/Humsafar%20(128%20Kbps)%20-%20Swati%20Sharma.mp3'),
+('Queen (128 Kbps) - Shahid Mallya - Bhoomi Trivedi','1-13-7 Ek Tera Saath (2016)','https://www.indiamp3.com/audio/Indian%20Movies/Indian%20Movies%20Hindi%20Mp3%20Songs/1-13-7%20Ek%20Tera%20Saath%20(2016)/songs/Queen%20(128%20Kbps)%20-%20Shahid%20Mallya%20-%20Bhoomi%20Trivedi.mp3'),
+('Pakeeza (320 Kbps) - KK - Swati Sharma - Ali Aslam','1-13-7 Ek Tera Saath (2016)','https://www.indiamp3.com/audio/Indian%20Movies/Indian%20Movies%20Hindi%20Mp3%20Songs/1-13-7%20Ek%20Tera%20Saath%20(2016)/songs/Pakeeza%20(320%20Kbps)%20-%20KK%20-%20Swati%20Sharma%20-%20Ali%20Aslam.mp3'),
+('Saiyyan (320 Kbps) - Sonu Nigam - Swati Sharma','1-13-7 Ek Tera Saath (2016)','https://www.indiamp3.com/audio/Indian%20Movies/Indian%20Movies%20Hindi%20Mp3%20Songs/1-13-7%20Ek%20Tera%20Saath%20(2016)/songs/Saiyyan%20(320%20Kbps)%20-%20Sonu%20Nigam%20-%20Swati%20Sharma.mp3'),

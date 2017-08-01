@@ -1,0 +1,88 @@
+insert into music values
+('Aahista Aahista ','A Valentines Gift 2 U Vol.1','https://www.indiamp3.com/audio/Indian%20POP%20Albums/Indian%20POP%20Albums%20Mp3%20Songs/A%20Valentines%20Gift%202%20U%20Vol.1/songs/Aahista%20Aahista%20(IndiaMp3.com).mp3');
+insert into music values
+('Aaghaaz Karo','Aaghaaz (2000)','https://www.indiamp3.com/audio/Indian%20Movies/Indian%20Movies%20Hindi%20Mp3%20Songs/Aaghaaz%20(2000)/songs/Aaghaaz%20Karo%20@%20IndiaMp3.Com.mp3');
+insert into music values
+('Jhanan Jhanan Jhanan Jhanan (Long)','Aah (1953)','https://www.indiamp3.com/audio/Indian%20Movies/Indian%20Movies%20Hindi%20Mp3%20Songs/Aah%20(1953)/Songs/Jhanan%20Jhanan%20Jhanan%20Jhanan%20(Long)%20@%20IndiaMp3.Com.mp3');
+insert into music values
+('Julie Julie Tu','Aaja Meri Jaan (1993)','https://www.indiamp3.com/audio/Indian%20Movies/Indian%20Movies%20Hindi%20Mp3%20Songs/Aaja%20Meri%20Jaan%20(1993)/songs/Julie%20Julie%20Tu%20@%20IndiaMp3.Com.mp3');
+insert into music values
+('Aaja Nachle','Aaja Nachle Remix Vol 1','https://www.indiamp3.com/audio/Indian%20POP%20Albums/Indian%20POP%20Albums%20Mp3%20Songs/Aaja%20Nachle%20Remix%20Vol%201/songs/Aaja%20Nachle%20@%20IndiaMp3.Com.mp3'),
+('Hoth Rasiley (Welcome)','Aaja Nachle Remix Vol 1','https://www.indiamp3.com/audio/Indian%20POP%20Albums/Indian%20POP%20Albums%20Mp3%20Songs/Aaja%20Nachle%20Remix%20Vol%201/songs/Hoth%20Rasiley%20(Welcome)%20@%20IndiaMp3.Com.mp3');
+insert into music values
+('Muskurati Hai','Aaja Pyar Karle','https://www.indiamp3.com/audio/Indian%20POP%20Albums/Indian%20POP%20Albums%20Mp3%20Songs/Aaja%20Pyar%20Karle/songs/Muskurati%20Hai%20@%20IndiaMp3.Com.mp3');
+insert into music values
+('Jaan-e-nazar Dekh Idhar','Aalam Aara (1956)','https://www.indiamp3.com/audio/Indian%20Movies/Indian%20Movies%20Hindi%20Mp3%20Songs/Aalam%20Aara%20(1956)/Songs/Jaan-e-nazar%20Dekh%20Idhar%20@%20IndiaMp3.Com.mp3'),
+('Naale Karte Huye','Aalam Aara (1956)','https://www.indiamp3.com/audio/Indian%20Movies/Indian%20Movies%20Hindi%20Mp3%20Songs/Aalam%20Aara%20(1956)/Songs/Naale%20Karte%20Huye%20@%20IndiaMp3.Com.mp3'),
+('Bigdi Hui Bana De Ajmerwale','Aalam Aara (1956)','https://www.indiamp3.com/audio/Indian%20Movies/Indian%20Movies%20Hindi%20Mp3%20Songs/Aalam%20Aara%20(1956)/Songs/Bigdi%20Hui%20Bana%20De%20Ajmerwale%20@%20IndiaMp3.Com.mp3'),
+('Aadmi Ki Zamane Mein','Aalam Aara (1956)','https://www.indiamp3.com/audio/Indian%20Movies/Indian%20Movies%20Hindi%20Mp3%20Songs/Aalam%20Aara%20(1956)/Songs/Aadmi%20Ki%20Zamane%20Mein%20@%20IndiaMp3.Com.mp3'),
+('Karta Hai Ek Raavi','Aalam Aara (1956)','https://www.indiamp3.com/audio/Indian%20Movies/Indian%20Movies%20Hindi%20Mp3%20Songs/Aalam%20Aara%20(1956)/Songs/Karta%20Hai%20Ek%20Raavi%20@%20IndiaMp3.Com.mp3'),
+('Sun Le Meri Pukar','Aalam Aara (1956)','https://www.indiamp3.com/audio/Indian%20Movies/Indian%20Movies%20Hindi%20Mp3%20Songs/Aalam%20Aara%20(1956)/Songs/Sun%20Le%20Meri%20Pukar%20@%20IndiaMp3.Com.mp3');
+insert into music values
+('Nee_Yaaro_What_Are','Aalavandhan (2001)','https://www.indiamp3.com/audio/Tamil%20Songs/Tamil%20Mp3%20Songs/Aalavandhan%20(2001)/Songs/Nee_Yaaro_What_Are%20@%20IndiaMp3.Com.mp3'),
+('Africa Kaadduu Puli Aal','Aalavandhan (2001)','https://www.indiamp3.com/audio/Tamil%20Songs/Tamil%20Mp3%20Songs/Aalavandhan%20(2001)/Songs/Africa%20Kaadduu%20Puli%20Aal%20@%20IndiaMp3.Com.mp3'),
+('Nee Yaaro What Are','Aalavandhan (2001)','https://www.indiamp3.com/audio/Tamil%20Songs/Tamil%20Mp3%20Songs/Aalavandhan%20(2001)/Songs/Nee%20Yaaro%20What%20Are%20@%20IndiaMp3.Com.mp3'),
+('Kadavul Paadhi','Aalavandhan (2001)','https://www.indiamp3.com/audio/Tamil%20Songs/Tamil%20Mp3%20Songs/Aalavandhan%20(2001)/Songs/Kadavul%20Paadhi%20@%20IndiaMp3.Com.mp3');
+insert into music values
+('Kandhan Endral Arivu','Aalukkoru Aasai (2004)','https://www.indiamp3.com/audio/Tamil%20Songs/Tamil%20Mp3%20Songs/Aalukkoru%20Aasai%20(2004)/Aalukkoru%20Aasai%20(2004)/Kandhan%20Endral%20Arivu%20@%20IndiaMp3.Com.mp3'),
+('Iduppodu Sungidi','Aalukkoru Aasai (2004)','https://www.indiamp3.com/audio/Tamil%20Songs/Tamil%20Mp3%20Songs/Aalukkoru%20Aasai%20(2004)/Aalukkoru%20Aasai%20(2004)/Iduppodu%20Sungidi%20@%20IndiaMp3.Com.mp3'),
+('Belpoori Naan Free Bird','Aalukkoru Aasai (2004)','https://www.indiamp3.com/audio/Tamil%20Songs/Tamil%20Mp3%20Songs/Aalukkoru%20Aasai%20(2004)/Aalukkoru%20Aasai%20(2004)/Belpoori%20Naan%20Free%20Bird%20@%20IndiaMp3.Com.mp3'),
+('Kadhal Kadhal Kadhal','Aalukkoru Aasai (2004)','https://www.indiamp3.com/audio/Tamil%20Songs/Tamil%20Mp3%20Songs/Aalukkoru%20Aasai%20(2004)/Aalukkoru%20Aasai%20(2004)/Kadhal%20Kadhal%20Kadhal%20@%20IndiaMp3.Com.mp3'),
+('Kottaikku Nee Raaja','Aalukkoru Aasai (2004)','https://www.indiamp3.com/audio/Tamil%20Songs/Tamil%20Mp3%20Songs/Aalukkoru%20Aasai%20(2004)/Aalukkoru%20Aasai%20(2004)/Kottaikku%20Nee%20Raaja%20@%20IndiaMp3.Com.mp3');
+insert into music values
+('Pidikkum','Aalwar (2006)','https://www.indiamp3.com/audio/Tamil%20Songs/Tamil%20Mp3%20Songs/Aalwar%20(2006)/Aalwar%20(2006)/Pidikkum%20@%20IndiaMp3.Com.mp3'),
+('SolliTharava','Aalwar (2006)','https://www.indiamp3.com/audio/Tamil%20Songs/Tamil%20Mp3%20Songs/Aalwar%20(2006)/Aalwar%20(2006)/SolliTharava%20@%20IndiaMp3.Com.mp3'),
+('MayileMayile','Aalwar (2006)','https://www.indiamp3.com/audio/Tamil%20Songs/Tamil%20Mp3%20Songs/Aalwar%20(2006)/Aalwar%20(2006)/MayileMayile%20@%20IndiaMp3.Com.mp3'),
+('Arivum Aandavan','Aalwar (2006)','https://www.indiamp3.com/audio/Tamil%20Songs/Tamil%20Mp3%20Songs/Aalwar%20(2006)/Aalwar%20(2006)/Arivum%20Aandavan%20@%20IndiaMp3.Com.mp3'),
+('AnbullaKadhali','Aalwar (2006)','https://www.indiamp3.com/audio/Tamil%20Songs/Tamil%20Mp3%20Songs/Aalwar%20(2006)/Aalwar%20(2006)/AnbullaKadhali%20@%20IndiaMp3.Com.mp3');
+insert into music values
+('Anbulla Kadhali','Aalwar (2007)','https://www.indiamp3.com/audio/Tamil%20Songs/Tamil%20Mp3%20Songs/Aalwar%20(2007)/Songs/Anbulla%20Kadhali%20@%20IndiaMp3.Com.mp3'),
+('Pidikkum','Aalwar (2007)','https://www.indiamp3.com/audio/Tamil%20Songs/Tamil%20Mp3%20Songs/Aalwar%20(2007)/Songs/Pidikkum%20@%20IndiaMp3.Com.mp3'),
+('Solli Tharava','Aalwar (2007)','https://www.indiamp3.com/audio/Tamil%20Songs/Tamil%20Mp3%20Songs/Aalwar%20(2007)/Songs/Solli%20Tharava%20@%20IndiaMp3.Com.mp3'),
+('Arivum Aandavan','Aalwar (2007)','https://www.indiamp3.com/audio/Tamil%20Songs/Tamil%20Mp3%20Songs/Aalwar%20(2007)/Songs/Arivum%20Aandavan%20@%20IndiaMp3.Com.mp3'),
+('Mayile Mayile','Aalwar (2007)','https://www.indiamp3.com/audio/Tamil%20Songs/Tamil%20Mp3%20Songs/Aalwar%20(2007)/Songs/Mayile%20Mayile%20@%20IndiaMp3.Com.mp3');
+insert into music values
+('Aayee Hai Diwali','Aamdani Atthanni Kharcha Rpaiya (2001)','https://www.indiamp3.com/audio/Indian%20Movies/Indian%20Movies%20Hindi%20Mp3%20Songs/Aamdani%20Atthanni%20Kharcha%20Rpaiya%20(2001)/songs/Aayee%20Hai%20Diwali%20@%20IndiaMp3.Com.mp3'),
+('Style Nasha Tera','Aamdani Atthanni Kharcha Rpaiya (2001)','https://www.indiamp3.com/audio/Indian%20Movies/Indian%20Movies%20Hindi%20Mp3%20Songs/Aamdani%20Atthanni%20Kharcha%20Rpaiya%20(2001)/songs/Style%20Nasha%20Tera%20@%20IndiaMp3.Com.mp3'),
+('Aamdani Atthanni','Aamdani Atthanni Kharcha Rpaiya (2001)','https://www.indiamp3.com/audio/Indian%20Movies/Indian%20Movies%20Hindi%20Mp3%20Songs/Aamdani%20Atthanni%20Kharcha%20Rpaiya%20(2001)/songs/Aamdani%20Atthanni%20@%20IndiaMp3.Com.mp3'),
+('Ta Thaiya Ta Thaiya','Aamdani Atthanni Kharcha Rpaiya (2001)','https://www.indiamp3.com/audio/Indian%20Movies/Indian%20Movies%20Hindi%20Mp3%20Songs/Aamdani%20Atthanni%20Kharcha%20Rpaiya%20(2001)/songs/Ta%20Thaiya%20Ta%20Thaiya%20@%20IndiaMp3.Com.mp3'),
+('Sajanniya Re','Aamdani Atthanni Kharcha Rpaiya (2001)','https://www.indiamp3.com/audio/Indian%20Movies/Indian%20Movies%20Hindi%20Mp3%20Songs/Aamdani%20Atthanni%20Kharcha%20Rpaiya%20(2001)/songs/Sajanniya%20Re%20@%20IndiaMp3.Com.mp3'),
+('Chori Chori Tera Chalna','Aamdani Atthanni Kharcha Rpaiya (2001)','https://www.indiamp3.com/audio/Indian%20Movies/Indian%20Movies%20Hindi%20Mp3%20Songs/Aamdani%20Atthanni%20Kharcha%20Rpaiya%20(2001)/songs/Chori%20Chori%20Tera%20Chalna%20@%20IndiaMp3.Com.mp3');
+insert into music values
+('Nakosam Puttina','Aame Evaru (2015)','https://www.indiamp3.com/audio/Tamil%20Songs/Tamil%20Mp3%20Songs/Aame%20Evaru%20(2015)/Aame%20Evaru%20(2015)/Nakosam%20Puttina%20@%20IndiaMp3.Com.mp3'),
+('Everybody Be Careful','Aame Evaru (2015)','https://www.indiamp3.com/audio/Tamil%20Songs/Tamil%20Mp3%20Songs/Aame%20Evaru%20(2015)/Aame%20Evaru%20(2015)/Everybody%20Be%20Careful%20@%20IndiaMp3.Com.mp3'),
+('Aadinche Amma','Aame Evaru (2015)','https://www.indiamp3.com/audio/Tamil%20Songs/Tamil%20Mp3%20Songs/Aame%20Evaru%20(2015)/Aame%20Evaru%20(2015)/Aadinche%20Amma%20@%20IndiaMp3.Com.mp3'),
+('Oh My Dear','Aame Evaru (2015)','https://www.indiamp3.com/audio/Tamil%20Songs/Tamil%20Mp3%20Songs/Aame%20Evaru%20(2015)/Aame%20Evaru%20(2015)/Oh%20My%20Dear%20@%20IndiaMp3.Com.mp3'),
+('Arey Arey Naruda','Aame Evaru (2015)','https://www.indiamp3.com/audio/Tamil%20Songs/Tamil%20Mp3%20Songs/Aame%20Evaru%20(2015)/Aame%20Evaru%20(2015)/Arey%20Arey%20Naruda%20@%20IndiaMp3.Com.mp3');
+insert into music values
+('Haara - Amit Trivedi','Aamir (2008)','https://www.indiamp3.com/audio/Indian%20Movies/Indian%20Movies%20Hindi%20Mp3%20Songs/Aamir%20(2008)/songs/Haara%20-%20Amit%20Trivedi%20@%20IndiaMp3.com.mp3'),
+('Ha Raham (Mehfuz) - Murtuza-qadiramitabh And Amit Trivedi','Aamir (2008)','https://www.indiamp3.com/audio/Indian%20Movies/Indian%20Movies%20Hindi%20Mp3%20Songs/Aamir%20(2008)/songs/Ha%20Raham%20(Mehfuz)%20-%20Murtuza-qadiramitabh%20And%20Amit%20Trivedi%20@%20IndiaMp3.com.mp3'),
+('Ek Lau - Shilpa Rao And Amitabh','Aamir (2008)','https://www.indiamp3.com/audio/Indian%20Movies/Indian%20Movies%20Hindi%20Mp3%20Songs/Aamir%20(2008)/songs/Ek%20Lau%20-%20Shilpa%20Rao%20And%20Amitabh%20@%20IndiaMp3.com.mp3'),
+('Dilruba - Kailasa','Aamir (2008)','https://www.indiamp3.com/audio/Indian%20Movies/Indian%20Movies%20Hindi%20Mp3%20Songs/Aamir%20(2008)/songs/Dilruba%20-%20Kailasa%20@%20IndiaMp3.com.mp3'),
+('Climax Theme - Marianne Dcruz Aiman And Jeetendra Thakur (Solo Violonist)','Aamir (2008)','https://www.indiamp3.com/audio/Indian%20Movies/Indian%20Movies%20Hindi%20Mp3%20Songs/Aamir%20(2008)/songs/Climax%20Theme%20-%20Marianne%20Dcruz%20Aiman%20And%20Jeetendra%20Thakur%20(Solo%20Violonist)%20@%20IndiaMp3.com.mp3'),
+('Bandya - Khuda Kay Liye','Aamir (2008)','https://www.indiamp3.com/audio/Indian%20Movies/Indian%20Movies%20Hindi%20Mp3%20Songs/Aamir%20(2008)/songs/Bandya%20-%20Khuda%20Kay%20Liye%20@%20IndiaMp3.com.mp3'),
+('Chaap Tilak - Jhoomo Re','Aamir (2008)','https://www.indiamp3.com/audio/Indian%20Movies/Indian%20Movies%20Hindi%20Mp3%20Songs/Aamir%20(2008)/songs/Chaap%20Tilak%20-%20Jhoomo%20Re%20@%20IndiaMp3.com.mp3'),
+('Chakkar Ghumyo - Amit Trivedi','Aamir (2008)','https://www.indiamp3.com/audio/Indian%20Movies/Indian%20Movies%20Hindi%20Mp3%20Songs/Aamir%20(2008)/songs/Chakkar%20Ghumyo%20-%20Amit%20Trivedi%20@%20IndiaMp3.com.mp3'),
+('Phas Gaya (Never Mind) - Neuman Pinto','Aamir (2008)','https://www.indiamp3.com/audio/Indian%20Movies/Indian%20Movies%20Hindi%20Mp3%20Songs/Aamir%20(2008)/songs/Phas%20Gaya%20(Never%20Mind)%20-%20Neuman%20Pinto%20@%20IndiaMp3.com.mp3'),
+('Allah Hoo - Khuda Kay Liye','Aamir (2008)','https://www.indiamp3.com/audio/Indian%20Movies/Indian%20Movies%20Hindi%20Mp3%20Songs/Aamir%20(2008)/songs/Allah%20Hoo%20-%20Khuda%20Kay%20Liye%20@%20IndiaMp3.com.mp3');
+insert into music values
+('Amir Ali  - Lovely Lovely ','Aamir Ali So Gulam Ali','https://www.indiamp3.com/audio/Pakistani%20Artists/Pakistani%20Artists%20Mp3%20Songs/Aamir%20Ali%20So%20Gulam%20Ali/songs/Amir%20Ali%20%20-%20Lovely%20Lovely%20(IndiaMp3[1].net).mp3'),
+('Amir Ali  - Ali Da Vird Karan ','Aamir Ali So Gulam Ali','https://www.indiamp3.com/audio/Pakistani%20Artists/Pakistani%20Artists%20Mp3%20Songs/Aamir%20Ali%20So%20Gulam%20Ali/songs/Amir%20Ali%20%20-%20Ali%20Da%20Vird%20Karan%20(IndiaMp3[1].net).mp3'),
+('Amir Ali - Teri Nathli (2) ','Aamir Ali So Gulam Ali','https://www.indiamp3.com/audio/Pakistani%20Artists/Pakistani%20Artists%20Mp3%20Songs/Aamir%20Ali%20So%20Gulam%20Ali/songs/Amir%20Ali%20-%20Teri%20Nathli%20(2)%20(IndiaMp3[1].net).mp3'),
+('Amir Ali  - Das Nee Sharab ','Aamir Ali So Gulam Ali','https://www.indiamp3.com/audio/Pakistani%20Artists/Pakistani%20Artists%20Mp3%20Songs/Aamir%20Ali%20So%20Gulam%20Ali/songs/Amir%20Ali%20%20-%20Das%20Nee%20Sharab%20(IndiaMp3[1].net).mp3'),
+('Amir Ali - Dil Tuta ','Aamir Ali So Gulam Ali','https://www.indiamp3.com/audio/Pakistani%20Artists/Pakistani%20Artists%20Mp3%20Songs/Aamir%20Ali%20So%20Gulam%20Ali/songs/Amir%20Ali%20-%20Dil%20Tuta%20(IndiaMp3[1].net).mp3'),
+('Amir Ali - Hina Jee ','Aamir Ali So Gulam Ali','https://www.indiamp3.com/audio/Pakistani%20Artists/Pakistani%20Artists%20Mp3%20Songs/Aamir%20Ali%20So%20Gulam%20Ali/songs/Amir%20Ali%20-%20Hina%20Jee%20(IndiaMp3[1].net).mp3'),
+('Amir Ali  - Jadon Da Toon ','Aamir Ali So Gulam Ali','https://www.indiamp3.com/audio/Pakistani%20Artists/Pakistani%20Artists%20Mp3%20Songs/Aamir%20Ali%20So%20Gulam%20Ali/songs/Amir%20Ali%20%20-%20Jadon%20Da%20Toon%20(IndiaMp3[1].net).mp3'),
+('Amir Ali  - Sapno Mein ','Aamir Ali So Gulam Ali','https://www.indiamp3.com/audio/Pakistani%20Artists/Pakistani%20Artists%20Mp3%20Songs/Aamir%20Ali%20So%20Gulam%20Ali/songs/Amir%20Ali%20%20-%20Sapno%20Mein%20(IndiaMp3[1].net).mp3');
+insert into music values
+('Dosti','Aamir Jamal - Heart Beat','https://www.indiamp3.com/audio/Pakistani%20Artists/Pakistani%20Artists%20Mp3%20Songs/Aamir%20Jamal%20-%20Heart%20Beat/songs/Dosti%20@%20IndiaMp3.Com.mp3'),
+('Ishq','Aamir Jamal - Heart Beat','https://www.indiamp3.com/audio/Pakistani%20Artists/Pakistani%20Artists%20Mp3%20Songs/Aamir%20Jamal%20-%20Heart%20Beat/songs/Ishq%20@%20IndiaMp3.Com.mp3'),
+('Naina','Aamir Jamal - Heart Beat','https://www.indiamp3.com/audio/Pakistani%20Artists/Pakistani%20Artists%20Mp3%20Songs/Aamir%20Jamal%20-%20Heart%20Beat/songs/Naina%20@%20IndiaMp3.Com.mp3'),
+('Tirri Pawanda','Aamir Jamal - Heart Beat','https://www.indiamp3.com/audio/Pakistani%20Artists/Pakistani%20Artists%20Mp3%20Songs/Aamir%20Jamal%20-%20Heart%20Beat/songs/Tirri%20Pawanda%20@%20IndiaMp3.Com.mp3'),
+('Yaar','Aamir Jamal - Heart Beat','https://www.indiamp3.com/audio/Pakistani%20Artists/Pakistani%20Artists%20Mp3%20Songs/Aamir%20Jamal%20-%20Heart%20Beat/songs/Yaar%20@%20IndiaMp3.Com.mp3'),
+('Baskaro','Aamir Jamal - Heart Beat','https://www.indiamp3.com/audio/Pakistani%20Artists/Pakistani%20Artists%20Mp3%20Songs/Aamir%20Jamal%20-%20Heart%20Beat/songs/Baskaro%20@%20IndiaMp3.Com.mp3'),
+('Shabab','Aamir Jamal - Heart Beat','https://www.indiamp3.com/audio/Pakistani%20Artists/Pakistani%20Artists%20Mp3%20Songs/Aamir%20Jamal%20-%20Heart%20Beat/songs/Shabab%20@%20IndiaMp3.Com.mp3'),
+('Mitraan','Aamir Jamal - Heart Beat','https://www.indiamp3.com/audio/Pakistani%20Artists/Pakistani%20Artists%20Mp3%20Songs/Aamir%20Jamal%20-%20Heart%20Beat/songs/Mitraan%20@%20IndiaMp3.Com.mp3'),
+('Naina - Instrumental','Aamir Jamal - Heart Beat','https://www.indiamp3.com/audio/Pakistani%20Artists/Pakistani%20Artists%20Mp3%20Songs/Aamir%20Jamal%20-%20Heart%20Beat/songs/Naina%20-%20Instrumental%20@%20IndiaMp3.Com.mp3'),
+('Pyaar','Aamir Jamal - Heart Beat','https://www.indiamp3.com/audio/Pakistani%20Artists/Pakistani%20Artists%20Mp3%20Songs/Aamir%20Jamal%20-%20Heart%20Beat/songs/Pyaar%20@%20IndiaMp3.Com.mp3'),
+('Palkon Say','Aamir Jamal - Heart Beat','https://www.indiamp3.com/audio/Pakistani%20Artists/Pakistani%20Artists%20Mp3%20Songs/Aamir%20Jamal%20-%20Heart%20Beat/songs/Palkon%20Say%20@%20IndiaMp3.Com.mp3'),
