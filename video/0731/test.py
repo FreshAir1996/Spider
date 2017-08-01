@@ -112,5 +112,3 @@ if __name__ == '__main__':
 
 	save_to_loacl(tags[2],path,conn)
 
-	print os.getcwd()
-	f = open("jjj","w+")
