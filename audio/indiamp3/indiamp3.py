@@ -76,12 +76,14 @@ def main_process():
 def ttt():
  	
 	pwd = os.getcwd()
-    Start = datetime.datetime.now()
-    urls = get_list_for_web('../webs/indiamp3.html')
-    names = ["./.log/" +(urls[x].rsplit("/",1)[-1])  for x in range(27)]
-   
-    f0 = open(names[0]),"a+")
-    fx = open(str(names[24]),"a+")
+	
+	Start = datetime.datetime.now()
+	
+	urls = get_list_for_web('../webs/indiamp3.html')
+	names = ["./.log/" +(urls[x].rsplit("/",1)[-1])  for x in range(27)]
+	
+	f0 = open(names[0]),"a+")
+	fx = open(str(names[24]),"a+")
 
     f0_process = mul.Process(target=save_info,args=(urls[0],f0))
     fx_process = mul.Process(target=save_info,args=(urls[24],fx))

@@ -1,0 +1,10 @@
+REATE TABLE IF NOT EXISTS `iptv_movies` (     
+ `category` varchar(64) NOT NULL,   
+ `videoname` varchar(64) NOT NULL,    
+ `url` varchar(512) NOT NULL,  
+ `cover` varchar(512) NOT NULL,      
+ `local_url_l` varchar(512) NOT NULL,
+ `local_cover` varchar(512) NOT NULL, 
+ CONSTRAINT iptv PRIMARY KEY (category,videoname)
+ ) ENGINE=MyISAM  DEFAULT CHARSET=utf8;
+

@@ -9,7 +9,7 @@ import re
 path_import = os.getcwd().rsplit('/',1)[0]
 sys.path.append(path_import)
 from allindiasongs import allindiasongs
-from indiamp3 import indiamp3
+from indiamp3 import mul_thread  #single #indiamp3
 from mysql import mydb
 
 #rule_link = re.compile(r"'(.*?)'")
@@ -56,7 +56,7 @@ def func0(webs,index):
     return names
 
 def func1(webs,index):
-    names = indiamp3.ttt()
+    names = mul_thread.main()
     webs[int(index)] += " (Chosen)"
     return names
 
