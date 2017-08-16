@@ -1,5 +1,0 @@
-insert into music values
-('Tera Husn Allah Allah','5 Rifles (1973)','https://www.indiamp3.com/audio/Indian%20Movies/Indian%20Movies%20Hindi%20Mp3%20Songs/5%20Rifles%20(1973)/songs/Tera%20Husn%20Allah%20Allah%20@%20IndiaMp3.Com.mp3'),
-('Jab Se Sarkar Ne_2','5 Rifles (1973)','https://www.indiamp3.com/audio/Indian%20Movies/Indian%20Movies%20Hindi%20Mp3%20Songs/5%20Rifles%20(1973)/songs/Jab%20Se%20Sarkar%20Ne%20@%20IndiaMp3.Com_2.mp3'),
-('Malmal Men Badan_2','5 Rifles (1973)','https://www.indiamp3.com/audio/Indian%20Movies/Indian%20Movies%20Hindi%20Mp3%20Songs/5%20Rifles%20(1973)/songs/Malmal%20Men%20Badan%20@%20IndiaMp3.Com_2.mp3'),
-('Pyar Ke Patang Ki','5 Rifles (1973)','https://www.indiamp3.com/audio/Indian%20Movies/Indian%20Movies%20Hindi%20Mp3%20Songs/5%20Rifles%20(1973)/songs/Pyar%20Ke%20Patang%20Ki%20@%20IndiaMp3.Com.mp3'),

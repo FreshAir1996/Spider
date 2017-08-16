@@ -1,6 +1,0 @@
-insert into music values
-('Mummy Returns','A Aa (2016)','https://www.indiamp3.com/audio/Tamil%20Songs/Tamil%20Mp3%20Songs/A%20Aa%20(2016)/A%20Aa%20(2016)/Mummy%20Returns%20@%20IndiaMp3.Com.mp3'),
-('Rang De','A Aa (2016)','https://www.indiamp3.com/audio/Tamil%20Songs/Tamil%20Mp3%20Songs/A%20Aa%20(2016)/A%20Aa%20(2016)/Rang%20De%20@%20IndiaMp3.Com.mp3'),
-('Yellipoke Shyamal','A Aa (2016)','https://www.indiamp3.com/audio/Tamil%20Songs/Tamil%20Mp3%20Songs/A%20Aa%20(2016)/A%20Aa%20(2016)/Yellipoke%20Shyamal%20@%20IndiaMp3.Com.mp3'),
-('Anasuya Kosam','A Aa (2016)','https://www.indiamp3.com/audio/Tamil%20Songs/Tamil%20Mp3%20Songs/A%20Aa%20(2016)/A%20Aa%20(2016)/Anasuya%20Kosam%20@%20IndiaMp3.Com.mp3'),
-('Yaa Yaa','A Aa (2016)','https://www.indiamp3.com/audio/Tamil%20Songs/Tamil%20Mp3%20Songs/A%20Aa%20(2016)/A%20Aa%20(2016)/Yaa%20Yaa%20@%20IndiaMp3.Com.mp3'),
