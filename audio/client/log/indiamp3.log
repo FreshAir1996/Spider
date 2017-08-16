@@ -1,0 +1,30 @@
+
+Time:2017-08-16 11:56:24;
+ERROR:Fail Insert (https://www.indiamp3.com/1920-2008-mp3-songs)
+Traceback (most recent call last):
+  File "indiamp3.py", line 71, in main
+    cur.execute(sql)
+  File "/usr/local/lib/python2.7/site-packages/MySQLdb/cursors.py", line 205, in execute
+    self.errorhandler(self, exc, value)
+  File "/usr/local/lib/python2.7/site-packages/MySQLdb/connections.py", line 36, in defaulterrorhandler
+    raise errorclass, errorvalue
+IntegrityError: (1062, "Duplicate entry '1920 (2008)-Vaada Tumse Hain Vaada' for key 'albumname'")
+
+Time:2017-08-16 12:10:26;
+ERROR:Fail Insert (https://www.indiamp3.com/2-planet-bhangra-mp3-songs)
+Traceback (most recent call last):
+  File "indiamp3.py", line 71, in main
+    cur.execute(sql)
+  File "/usr/local/lib/python2.7/site-packages/MySQLdb/cursors.py", line 205, in execute
+    self.errorhandler(self, exc, value)
+  File "/usr/local/lib/python2.7/site-packages/MySQLdb/connections.py", line 36, in defaulterrorhandler
+    raise errorclass, errorvalue
+IntegrityError: (1062, "Duplicate entry '2 Planet Bhangra-Bolyian' for key 'albumname'")
+
+Time:2017-08-16 12:51:35;
+WARNING:Failed Down (https://www.indiamp3.com/16-massive-hits-mp3-songs,7) 
+
+
+Time:2017-08-16 13:47:42;
+WARNING:Failed Down (https://www.indiamp3.com/50-glorious-years-of-popular-ghazals-vol-2-mp3-songs,3) 
+
