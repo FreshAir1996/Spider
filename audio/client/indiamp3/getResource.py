@@ -113,9 +113,9 @@ def get_info_for_album(url,dic,log):
     'user-agent':'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 \
     (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'}
 	try:
-		req = requests.get(url,headers=headers,timeout=10)
+		req = requests.get(url,headers=headers,timeout=15)
 	except requests.RequestException:
-		log.warn("Failed due to Requests: %s" % url)
+		log.error("Failed due to Requests: %s" % url)
 		return soup
 	except Exception,e:
 		log.exception("Failed  due to Exception: %s" % url)
@@ -170,6 +170,8 @@ def getInfoQuickly(url,cur,log):
 		(KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'}
 	
 		links = soup_album.findAll(href=re.compile(r'download-song.php\?song=\d{1,6}'))
+		names = soup_album.findAll(href=re.compile(r'javascript:playSong.*?'))
+#		print names[0].text
 	
 		if dic['bitrate'] == '128/320kbps':            # 判断是否有两个码率
 			step = 2
@@ -178,7 +180,7 @@ def getInfoQuickly(url,cur,log):
 
 			link = add_head_url(links[i]['href'])
 			try:
-				r = requests.get(link,headers=headers,timeout=5)
+				r = requests.get(link,headers=headers,timeout=10)
 			except Exception,e:
 				log.warn("Failed Down (%s,%d) " % (url,i))
 			else:
@@ -187,12 +189,20 @@ def getInfoQuickly(url,cur,log):
 				absolute_addr = add_head_url(relative_addr)
 	#判断音乐链接是否有效
 				log.debug("Use FFmpeg")
-				infos = FFmpeg.getInfo(absolute_addr)
-				if len(infos) > 4:
+				infos = FFmpeg.getMp3Info(absolute_addr)
+				if len(infos) :
+					dic['songname'] = names[i].text
+					dic['singer'] = 'Unknown'
+
 					result = re.findall(info_re,infos)
 					try:
-						dic['songname'] = result[0].split(":")[-1].split('@')[0].strip()
-						dic['singer'] = result[1].split(":")[-1].split('@')[0].strip()
+						songname = result[0].split(":")[-1].split('@')[0].strip()
+						singer = result[1].split(":")[-1].split('@')[0].strip()
+						if songname:
+							dic['songname'] = songname
+						if singer:
+							dic['singer'] = singer
+
 					except :
 						print "############"
 						continue
@@ -246,7 +256,9 @@ def test(url,fp,log):
 if __name__ == '__main__':
 	Start = datetime.datetime.now()
 	log = Logger('temp.log',logging.DEBUG,logging.WARNING)
-	url = 'https://www.indiamp3.com/1920-2008-mp3-songs'
+   	url = 'https://www.indiamp3.com/military-raaj-1998-mp3-songs'
+	url = 'https://www.indiamp3.com/laadla-mp3-songs'
+#	url = 'https://www.indiamp3.com/mir-dil-ruba-mp3-songs'
 #	url = 'https://www.indiamp3.com'
 #	with open('../resource/indiamp3.txt','w+') as fw:
 #		get_album_to_local(url,fw,log)	

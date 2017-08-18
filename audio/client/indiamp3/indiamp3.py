@@ -63,7 +63,7 @@ def main():
 			for string in fr:
 				url = string.strip('\n')
 				resources = getInfoQuickly(url,cur,log)
-				os.system("sed -i -e '1d' ../resource/indiamp3.txt")
+				os.system("sed -i -e '1d' %s" % PATH)
 				if len(resources):
 					resources = resources[:-2] + ";" + resources[-1:]
 					try:
