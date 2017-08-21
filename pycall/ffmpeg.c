@@ -43,7 +43,7 @@ int FF_init()
 	int ret;
 	av_register_all();
 	ret = avformat_network_init();
-	av_log_set_level(AV_LOG_ERROR); //AV_LOG_FATAL
+	av_log_set_level(AV_LOG_FATAL); //AV_LOG_FATAL
 	return ret;
 }
 void FF_log_set_level(int level)

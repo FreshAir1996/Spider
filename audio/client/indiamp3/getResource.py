@@ -67,7 +67,7 @@ def get_album_of_category(url,log):
 	except requests.RequestException:
 		fmt = logging.Formatter('%(message)s')
 		log.setStreamFmt(fmt)
-		log.error("get_album_of_category for %s failed; it's terrible")
+		log.error("get_album_of_category for %s failed; it's terrible" % url)
 	else:
 		soup = BeautifulSoup(req.text,"html.parser")
 		albums = soup.findAll('a',attrs={'rel':'nofollow','href':re.compile(r'.*?-mp3-songs')})
@@ -257,7 +257,7 @@ if __name__ == '__main__':
 	Start = datetime.datetime.now()
 	log = Logger('temp.log',logging.DEBUG,logging.WARNING)
    	url = 'https://www.indiamp3.com/military-raaj-1998-mp3-songs'
-	url = 'https://www.indiamp3.com/laadla-mp3-songs'
+	url = 'https://www.indiamp3.com/3-2011-mp3-songs'
 #	url = 'https://www.indiamp3.com/mir-dil-ruba-mp3-songs'
 #	url = 'https://www.indiamp3.com'
 #	with open('../resource/indiamp3.txt','w+') as fw:

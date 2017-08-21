@@ -1,30 +1,52 @@
 
-Time:2017-08-16 11:56:24;
-ERROR:Fail Insert (https://www.indiamp3.com/1920-2008-mp3-songs)
-Traceback (most recent call last):
-  File "indiamp3.py", line 71, in main
-    cur.execute(sql)
-  File "/usr/local/lib/python2.7/site-packages/MySQLdb/cursors.py", line 205, in execute
-    self.errorhandler(self, exc, value)
-  File "/usr/local/lib/python2.7/site-packages/MySQLdb/connections.py", line 36, in defaulterrorhandler
-    raise errorclass, errorvalue
-IntegrityError: (1062, "Duplicate entry '1920 (2008)-Vaada Tumse Hain Vaada' for key 'albumname'")
-
-Time:2017-08-16 12:10:26;
-ERROR:Fail Insert (https://www.indiamp3.com/2-planet-bhangra-mp3-songs)
-Traceback (most recent call last):
-  File "indiamp3.py", line 71, in main
-    cur.execute(sql)
-  File "/usr/local/lib/python2.7/site-packages/MySQLdb/cursors.py", line 205, in execute
-    self.errorhandler(self, exc, value)
-  File "/usr/local/lib/python2.7/site-packages/MySQLdb/connections.py", line 36, in defaulterrorhandler
-    raise errorclass, errorvalue
-IntegrityError: (1062, "Duplicate entry '2 Planet Bhangra-Bolyian' for key 'albumname'")
-
-Time:2017-08-16 12:51:35;
-WARNING:Failed Down (https://www.indiamp3.com/16-massive-hits-mp3-songs,7) 
+Time:2017-08-19 09:24:02;
+WARNING:Failed Down (https://www.indiamp3.com/50-glorious-years-of-popular-ghazals-vol-5-mp3-songs,4) 
 
 
-Time:2017-08-16 13:47:42;
-WARNING:Failed Down (https://www.indiamp3.com/50-glorious-years-of-popular-ghazals-vol-2-mp3-songs,3) 
+Time:2017-08-19 09:24:50;
+WARNING:Failed Down (https://www.indiamp3.com/50-glorious-years-of-popular-ghazals-vol-5-mp3-songs,11) 
+
+
+Time:2017-08-19 10:11:01;
+ERROR:Failed due to Requests: https://www.indiamp3.com/21st-century-love-2015-mp3-songs
+
+
+Time:2017-08-19 10:11:20;
+ERROR:Failed due to Requests: https://www.indiamp3.com/100-love-2011-mp3-songs
+
+
+Time:2017-08-19 10:11:50;
+ERROR:Failed due to Requests: https://www.indiamp3.com/365-kadhal-kadithangal-2009-mp3-songs
+
+
+Time:2017-08-19 10:33:57;
+WARNING:Failed Down (https://www.indiamp3.com/404-error-not-found-2011-mp3-songs,4) 
+
+
+Time:2017-08-19 10:59:21;
+WARNING:Failed Down (https://www.indiamp3.com/21-greatest-dance-hits-mp3-songs,2) 
+
+
+Time:2017-08-19 11:11:58;
+WARNING:Failed Down (https://www.indiamp3.com/50-glorious-years-of-popular-ghazals-vol-2-mp3-songs,1) 
+
+
+Time:2017-08-19 11:19:36;
+WARNING:Failed Down (https://www.indiamp3.com/4-students-mp3-songs,6) 
+
+
+Time:2017-08-19 11:24:59;
+WARNING:Failed Down (https://www.indiamp3.com/3g-2013-mp3-songs,0) 
+
+
+Time:2017-08-19 11:25:34;
+WARNING:Failed Down (https://www.indiamp3.com/3g-2013-mp3-songs,3) 
+
+
+Time:2017-08-19 11:45:26;
+WARNING:Failed Down (https://www.indiamp3.com/180-2011-mp3-songs,1) 
+
+
+Time:2017-08-19 11:50:31;
+WARNING:Failed Down (https://www.indiamp3.com/7-welcome-to-london-2012-mp3-songs,3) 
 

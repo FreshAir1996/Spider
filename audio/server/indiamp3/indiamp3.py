@@ -51,25 +51,44 @@ def download(dic):
 	dic['local_url_h'] = ''
 	dic['local_cover'] = os.environ['HOME'] + '/iptv/audio/cover/notavailable.gif'
 
+	
 	if not FFmpeg.getInfo(dic['url_l']):
 		name_l = floder + dic['songname'] + '.mp3'
+		print name_l
 
 		r = requests.get(dic['url_l'])
-		with open(name_l,"wb") as codel:
-			codel.write(r.content)
+		try:	
+			with open(name_l,"wb") as codel:
+				codel.write(r.content)
+		except IOError:
+			if dic['songname'].find('/') != -1:
+				dic['songname'] = dic['url_l'].split('/')[-1].split('.')
+				name_l = floder + dic['url_l'].split('/')[-1]
+				print name_l
+				
+				with open(name_l,"wb") as codel:
+					codel.write(r.content)
 
-		print name_l
 		dic['local_url_l'] = name_l
 
 
 	if not FFmpeg.getInfo(dic['url_h']):
 		name_h  = floder + dic['songname'] + '(320kbps).mp3'
+		print name_h
 
 		r = requests.get(dic['url_h'])
-		with open(name_h,"wb") as codeh:
-			codeh.write(r.content)
-		print name_h
-		dic['local_url_h'] = name_h
+		try:	
+			with open(name_h,"wb") as codel:
+				codel.write(r.content)
+		except IOError:
+			if dic['songname'].find('/') != -1:
+				dic['songname'] = dic['url_h'].split('/')[-1].split('.')
+				name_l = floder + dic['url_h'].split('/')[-1]
+				print name_h
+				
+				with open(name_h,"wb") as codeh:
+					codeh.write(r.content)
+
 		
 
 	if dic['cover'].find('.gif') == -1 :
@@ -85,7 +104,7 @@ def download(dic):
 	return dic
 
 
-def test():
+def test(Tname,Fsql):
 	Start = datetime.datetime.now()
 	
 	conn = getHandleforDb("localhost","wangyexin","wangyexin","skytv")
@@ -94,7 +113,8 @@ def test():
 		cur2 = conn.cursor()
 		cur3 = conn.cursor()
 
-		cur1.execute('SELECT * FROM indiamp3')
+#		cur1.execute('SELECT * FROM indiamp3')
+		cur1.execute("SELECT * FROM %s WHERE albumname='Mix Collection'" % Tname)
 		i = 0
 		while True:
 			dic = cur1.fetchone()
@@ -109,6 +129,8 @@ def test():
 					,dic['url_l'],dic['local_cover'],dic['local_url_l'],dic['local_url_h'])
 					)
 					cur3.execute(insert)
+					Fsql.write(insert + '\n')
+					Fsql.flush()
 					i += 1
 					print "Download %d Mp3 Success !!!" % i
 			else:
@@ -126,6 +148,7 @@ def test():
     
 
 if __name__ == '__main__':
-	test()
+	with open('../sql/indiamp3.sql','a+') as fp:
+		test('indiamp3',fp)
 	
 
