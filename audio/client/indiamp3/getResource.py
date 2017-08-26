@@ -50,7 +50,7 @@ def get_categories_of_web(url,log):
 	try:
 		req = requests.get(url)
 	except requests.RequestException:
-		log.info("Cannot request to %s; it's critical!!" % url) 
+		log.exception("Cannot request to %s; it's critical!!" % url) 
 		sys.exit(-1)
 	else:
 		soup = BeautifulSoup(req.text,"html.parser")
@@ -67,7 +67,7 @@ def get_album_of_category(url,log):
 	except requests.RequestException:
 		fmt = logging.Formatter('%(message)s')
 		log.setStreamFmt(fmt)
-		log.error("get_album_of_category for %s failed; it's terrible" % url)
+		log.exception("get_album_of_category for (%s) failed; it's terrible" % url)
 	else:
 		soup = BeautifulSoup(req.text,"html.parser")
 		albums = soup.findAll('a',attrs={'rel':'nofollow','href':re.compile(r'.*?-mp3-songs')})
@@ -106,10 +106,10 @@ def get_info_for_album(url,dic,log):
 
 	soup = None
 	headers = {
-    'authority':'www.indiamp3.com',\
-    'path':'/%s' % url.split("/")[-1],\
-    'scheme':'https',\
-    'referer':'https://www.indiamp3.com/',\
+#    'authority':'www.indiamp3.com',\
+#    'path':'/%s' % url.split("/")[-1],\
+#    'scheme':'https',\
+#    'referer':'https://www.indiamp3.com/',\
     'user-agent':'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 \
     (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'}
 	try:
@@ -150,6 +150,7 @@ def get_info_for_album(url,dic,log):
 	
 #获得某个音乐的部分信息 songname singer url_h url_l 以单个专辑为目标
 def getInfoQuickly(url,cur,log):
+	preName = ''
 	tempstring = ''
 	dic = {}
 	step = 1
@@ -163,9 +164,9 @@ def getInfoQuickly(url,cur,log):
 	else:
 
 		headers = {
-		'authority':'www.indiamp3.com',\
-		'scheme':'https',\
-		'referer':url,\
+#		'authority':'www.indiamp3.com',\
+#		'scheme':'https',\
+#		'referer':url,\
 		'user-agent':'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36\
 		(KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'}
 	
@@ -198,8 +199,12 @@ def getInfoQuickly(url,cur,log):
 					try:
 						songname = result[0].split(":")[-1].split('@')[0].strip()
 						singer = result[1].split(":")[-1].split('@')[0].strip()
-						if songname:
-							dic['songname'] = songname
+						if songname and songname.find('/') == -1:
+							if songname == preName:
+								dic['songname'] = songname + ' - ' + singer
+							else:
+								dic['songname'] = songname
+							
 						if singer:
 							dic['singer'] = singer
 
@@ -222,15 +227,19 @@ def getInfoQuickly(url,cur,log):
 								dic['url_h'] = absolute_addr
 							else:
 								dic['url_l'] = absolute_addr
+					
+						print dic['songname']
+						preName = dic['songname']
 						log.info("Get Resources Success From (%s,%d)"  % (url,i))
 						tempstring +=('("","%s","%s","%s","%s","%s","%s","%s","%s","N"),\n' %
 				(dic['category'],dic['albumname'],dic['bitrate'],dic['cover'],
 			 dic['songname'],dic['singer'],dic['url_h'],dic['url_l']))
+	
 	return tempstring
 
 def test(url,fp,log):
 	Start = datetime.datetime.now()
-	conn = getHandleforDb("192.168.1.173","wangyexin","wangyexin","skytv")
+	conn = getHandleforDb("192.168.1.179","wangyexin","wangyexin","skytv")
 	cur = conn.cursor()
 	resources = getInfoQuickly(url,cur,log)
 	if len(resources):
@@ -257,7 +266,10 @@ if __name__ == '__main__':
 	Start = datetime.datetime.now()
 	log = Logger('temp.log',logging.DEBUG,logging.WARNING)
    	url = 'https://www.indiamp3.com/military-raaj-1998-mp3-songs'
-	url = 'https://www.indiamp3.com/3-2011-mp3-songs'
+	url = 'https://www.indiamp3.com/mix-collection-mp3-songs'
+	url = 'https://www.indiamp3.com/a-flying-jatt-2016-mp3-songs'
+	url = 'https://www.indiamp3.com/guest-in-london-2017-mp3-songs'
+#	url = 'https://www.indiamp3.com/1920-2008-mp3-songs'
 #	url = 'https://www.indiamp3.com/mir-dil-ruba-mp3-songs'
 #	url = 'https://www.indiamp3.com'
 #	with open('../resource/indiamp3.txt','w+') as fw:

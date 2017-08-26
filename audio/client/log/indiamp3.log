@@ -50,3 +50,7 @@ WARNING:Failed Down (https://www.indiamp3.com/180-2011-mp3-songs,1)
 Time:2017-08-19 11:50:31;
 WARNING:Failed Down (https://www.indiamp3.com/7-welcome-to-london-2012-mp3-songs,3) 
 
+
+Time:2017-08-21 17:41:44;
+ERROR:Failed due to Requests: https://www.indiamp3.com/aaya-toofan-1999-mp3-songs
+

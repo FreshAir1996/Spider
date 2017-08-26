@@ -43,7 +43,7 @@ int FF_init()
 	int ret;
 	av_register_all();
 	ret = avformat_network_init();
-	av_log_set_level(AV_LOG_FATAL); //AV_LOG_FATAL
+	av_log_set_level(AV_LOG_ERROR); //AV_LOG_FATAL
 	return ret;
 }
 void FF_log_set_level(int level)
@@ -181,7 +181,7 @@ int get_Mp3_info(const char* url,input_info_t **info)
 	lastTryTime = av_gettime();
 	fmt_ctx->interrupt_callback.callback = interrupt_cb;
 	if ((ret = avformat_open_input(&fmt_ctx, url, NULL, NULL)) < 0) {
-			av_log(NULL, AV_LOG_ERROR, "Cannot open input file!\n");
+			av_log(NULL, AV_LOG_INFO, "Cannot open input file!\n");
 			return ret;
 		}
 	if(fmt_ctx->iformat->name){

@@ -5,7 +5,7 @@ import sys
 import time
 import FFmpeg
 import warnings
-
+import mypexpect
 import requests
 import datetime
 import MySQLdb,MySQLdb.cursors
@@ -16,6 +16,7 @@ warnings.filterwarnings("ignore")
 
 FFmpeg.init()
 
+isExist = 'isExist'
 def getHandleforDb(host,user,passwd,db):
 	''' Get a handle for database '''
 	try:
@@ -39,98 +40,106 @@ def getHandleforDb(host,user,passwd,db):
 	else:
 		return conn
 
-def download(dic):
+def myReplace(string):
+
+	if string.rfind('(') != -1:
+		string = string.replace('(','\(').replace(')','\)')
+
+	if string.rfind(' ') != -1:
+		string = string.replace(' ','\ ')
+
+	return string
+
+def download(dic,cur,mp,isExist):
 	
-	floder = os.environ['HOME'] +'/iptv/audio/'+ "%s/%s/" % (dic['category'],dic['albumname'])
-#	print floder
-
-	if not os.path.exists(floder):
-		os.makedirs(floder)
-
 	dic['local_url_l'] = ''
 	dic['local_url_h'] = ''
-	dic['local_cover'] = os.environ['HOME'] + '/iptv/audio/cover/notavailable.gif'
+	dic['local_cover'] = '/home/iptv/audio/cover/notavailable.gif'
 
-	
+	localdir = '/home/iptv/audio/'+ "%s/%s/" % (dic['category'],dic['albumname'])
+
+	if isExist[0] == localdir:
+		pass
+	else:
+		isExist[0] = localdir
+		floder= myReplace(localdir)
+#		print floder
+		mp.F_ssh('mkdir -p %s' % floder)
+
+		if dic['cover'].find('.gif') == -1 :
+			local_cover = localdir + dic['cover'].rsplit("/",1)[-1]
+			dest = myReplace(local_cover)
+#			print local_cover
+
+			r = requests.get(dic['cover'])
+			with open('1.jpg',"wb") as code:
+				code.write(r.content)
+
+			mp.F_scp('1.jpg',dest)
+			dic['local_cover'] = local_cover
+		
+		ret = ( cur.execute('insert into album value("","%s","%s","%s","%s","%s")'  %
+				(dic['category'],dic['albumname'],dic['bitrate'],dic['cover'],dic['local_cover'])
+				)
+			)
+
 	if not FFmpeg.getInfo(dic['url_l']):
-		name_l = floder + dic['songname'] + '.mp3'
-		print name_l
+		local_url_l = localdir + dic['songname'] + '.mp3'
+		dest = myReplace(local_url_l)
 
 		r = requests.get(dic['url_l'])
-		try:	
-			with open(name_l,"wb") as codel:
-				codel.write(r.content)
-		except IOError:
-			if dic['songname'].find('/') != -1:
-				dic['songname'] = dic['url_l'].split('/')[-1].split('.')
-				name_l = floder + dic['url_l'].split('/')[-1]
-				print name_l
-				
-				with open(name_l,"wb") as codel:
-					codel.write(r.content)
+		with open("1.mp3","wb") as codel:
+			codel.write(r.content)
 
-		dic['local_url_l'] = name_l
+#		print local_url_l
+		dic['local_url_l'] = local_url_l
 
+		mp.F_scp('1.mp3',dest)
 
 	if not FFmpeg.getInfo(dic['url_h']):
-		name_h  = floder + dic['songname'] + '(320kbps).mp3'
-		print name_h
+		local_url_h  = localdir + dic['songname'] + '(320kbps).mp3'
+		dest = myReplace(local_url_h)
 
 		r = requests.get(dic['url_h'])
-		try:	
-			with open(name_h,"wb") as codel:
-				codel.write(r.content)
-		except IOError:
-			if dic['songname'].find('/') != -1:
-				dic['songname'] = dic['url_h'].split('/')[-1].split('.')
-				name_l = floder + dic['url_h'].split('/')[-1]
-				print name_h
-				
-				with open(name_h,"wb") as codeh:
-					codeh.write(r.content)
+		with open(name_h,"wb") as codeh:
+			codeh.write(r.content)
+#		print local_url_h
+		dic['local_url_h'] = local_url_h
+		mp.F_scp('1.mp3',dest)
 
-		
-
-	if dic['cover'].find('.gif') == -1 :
-		jpgname = floder + dic['cover'].rsplit("/",1)[-1]
-		print jpgname
-
-		r = requests.get(dic['cover'])
-		with open(jpgname,"wb") as code:
-			code.write(r.content)
-
-		dic['local_cover'] = jpgname
-
+	ret = ( cur.execute('insert into music value("","%s","%s","%s","%s","%s","%s","%s")'
+			% (dic['albumname'],dic['songname'],dic['singer'],dic['url_h'],dic['url_l'],
+				dic['local_url_h'],dic['local_url_l']) )
+			)
 	return dic
 
 
-def test(Tname,Fsql):
+def test():
 	Start = datetime.datetime.now()
-	
-	conn = getHandleforDb("localhost","wangyexin","wangyexin","skytv")
-	with conn:
-		cur1 = conn.cursor()
-		cur2 = conn.cursor()
-		cur3 = conn.cursor()
+	isExist = ['isExist',None]
 
-#		cur1.execute('SELECT * FROM indiamp3')
-		cur1.execute("SELECT * FROM %s WHERE albumname='Mix Collection'" % Tname)
+	conn_local = getHandleforDb("localhost","wangyexin","wangyexin","skytv")
+	conn_server = getHandleforDb("85.25.46.133","wangyexin","wangyexin","skytv")
+
+	mp = mypexpect.MyPexpect('root','85.25.46.133','tv11Mar2015')
+	with conn_local:
+		cur1 = conn_local.cursor()
+		cur2 = conn_local.cursor()
+		cur_server = conn_server.cursor()
+
+		cur1.execute('SELECT * FROM indiamp3')
+#		cur1.execute("SELECT * FROM indiamp3 WHERE albumname='1920 (2008)'")
 		i = 0
 		while True:
 			dic = cur1.fetchone()
 			if dic:
 				if dic['download'] == 'N':
-					dic = download(dic)
+				
+					dic = download(dic,cur_server,mp,isExist)
 #					print dic
 					update = "UPDATE indiamp3 SET download='Y' where no=%d" % dic['no']
 					cur2.execute(update)
-					insert = ( 'insert into music value("","%s","%s","%s","%s","%s","%s","%s","%s","%s","%s","%s")'
-					% (dic['category'],dic['albumname'],dic['bitrate'],dic['cover'],dic['songname'],dic['singer'],dic['url_h']
-					,dic['url_l'],dic['local_cover'],dic['local_url_l'],dic['local_url_h'])
-					)
-					cur3.execute(insert)
-					Fsql.write(insert + '\n')
-					Fsql.flush()
+
 					i += 1
 					print "Download %d Mp3 Success !!!" % i
 			else:
@@ -140,6 +149,7 @@ def test(Tname,Fsql):
 
 		cur1.close()
 		cur2.close()
+		cur3.close()
 
 	End = datetime.datetime.now()
 
@@ -148,7 +158,11 @@ def test(Tname,Fsql):
     
 
 if __name__ == '__main__':
-	with open('../sql/indiamp3.sql','a+') as fp:
-		test('indiamp3',fp)
+	test()
+
+	str1 = 'hello'
+	str2 = 'hello'
+
+	print str1==str2
 	
 
