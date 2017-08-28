@@ -5,6 +5,8 @@ import sys
 import time
 import FFmpeg
 import warnings
+import logging
+from mylogger import Logger
 import mypexpect
 import requests
 import datetime
@@ -47,6 +49,9 @@ def myReplace(string):
 
 	if string.rfind(' ') != -1:
 		string = string.replace(' ','\ ')
+	
+	if string.rfind('&') != -1:
+		string = string.replace('&','\&')
 
 	return string
 
@@ -77,13 +82,16 @@ def download(dic,cur,mp,isExist):
 
 			mp.F_scp('1.jpg',dest)
 			dic['local_cover'] = local_cover
-		
-		ret = ( cur.execute('insert into album value("","%s","%s","%s","%s","%s")'  %
+		try:
+			ret = ( cur.execute('insert into album value("","%s","%s","%s","%s","%s")'  %
 				(dic['category'],dic['albumname'],dic['bitrate'],dic['cover'],dic['local_cover'])
 				)
 			)
+		except Exception as e:
+			raise e
+			return -1
 
-	if not FFmpeg.getInfo(dic['url_l']):
+	if FFmpeg.getMp3Info(dic['url_l']):
 		local_url_l = localdir + dic['songname'] + '.mp3'
 		dest = myReplace(local_url_l)
 
@@ -96,22 +104,27 @@ def download(dic,cur,mp,isExist):
 
 		mp.F_scp('1.mp3',dest)
 
-	if not FFmpeg.getInfo(dic['url_h']):
+	if FFmpeg.getMp3Info(dic['url_h']):
 		local_url_h  = localdir + dic['songname'] + '(320kbps).mp3'
 		dest = myReplace(local_url_h)
 
 		r = requests.get(dic['url_h'])
 		with open(name_h,"wb") as codeh:
 			codeh.write(r.content)
-#		print local_url_h
+		print local_url_h
 		dic['local_url_h'] = local_url_h
 		mp.F_scp('1.mp3',dest)
 
-	ret = ( cur.execute('insert into music value("","%s","%s","%s","%s","%s","%s","%s")'
+	try:
+		ret = ( cur.execute('insert into music value("","%s","%s","%s","%s","%s","%s","%s")'
 			% (dic['albumname'],dic['songname'],dic['singer'],dic['url_h'],dic['url_l'],
 				dic['local_url_h'],dic['local_url_l']) )
 			)
-	return dic
+	except Exception as e:
+		raise e
+		return -1
+	
+	return 0
 
 
 def test():
@@ -119,37 +132,44 @@ def test():
 	isExist = ['isExist',None]
 
 	conn_local = getHandleforDb("localhost","wangyexin","wangyexin","skytv")
-	conn_server = getHandleforDb("85.25.46.133","wangyexin","wangyexin","skytv")
+	conn_server = getHandleforDb("149.202.75.184","wangyexin","wangyexin","skytv")
 
-	mp = mypexpect.MyPexpect('root','85.25.46.133','tv11Mar2015')
+	log = Logger('../log/indiamp3.log',logging.DEBUG,logging.WARNING)
+	fmt = logging.Formatter('%(message)s')
+	log.setStreamFmt(fmt)
+	mp = mypexpect.MyPexpect('root','149.202.75.184','pY8w4jPisL8y')
+
 	with conn_local:
-		cur1 = conn_local.cursor()
-		cur2 = conn_local.cursor()
+		cur_local_1 = conn_local.cursor()
+		cur_local_2 = conn_local.cursor()
 		cur_server = conn_server.cursor()
 
 		cur1.execute('SELECT * FROM indiamp3')
 #		cur1.execute("SELECT * FROM indiamp3 WHERE albumname='1920 (2008)'")
 		i = 0
 		while True:
-			dic = cur1.fetchone()
+			dic = cur_local_1.fetchone()
 			if dic:
 				if dic['download'] == 'N':
-				
-					dic = download(dic,cur_server,mp,isExist)
+					try:
+						download(dic,cur_server,mp,isExist)
+					except Exception:
+						log.exception("Insert Fail due to")
 #					print dic
-					update = "UPDATE indiamp3 SET download='Y' where no=%d" % dic['no']
-					cur2.execute(update)
+					else:
+						update = "UPDATE indiamp3 SET download='Y' where no=%d" % dic['no']
+						cur_local_2.execute(update)
 
-					i += 1
-					print "Download %d Mp3 Success !!!" % i
+						i += 1
+						log.info("Download %d Mp3 Success !!!" % i)
 			else:
 				break
 			
 
 
-		cur1.close()
-		cur2.close()
-		cur3.close()
+		cur_local_1.close()
+		cur_local_2.close()
+		cur_server.close()
 
 	End = datetime.datetime.now()
 

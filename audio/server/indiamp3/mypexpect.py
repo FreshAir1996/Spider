@@ -63,9 +63,9 @@ class MyPexpect():
 	def F_scp(self,src,dest):
 
 		cmd = ('scp %s %s@%s:"%s" '  % (src,self.user,self.ip,dest))
-		print cmd 
+#		print cmd 
 		child = pexpect.spawn('scp %s %s@%s:"%s" '  % (src,self.user,self.ip,dest))
-#		child.logfile_read = sys.stdout
+		child.logfile_read = sys.stdout
 
 		child.expect('password')
 		child.sendline(self.passwd)
