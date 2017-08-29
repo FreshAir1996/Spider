@@ -17,8 +17,8 @@ sys.setdefaultencoding('utf-8')
 warnings.filterwarnings("ignore")
 
 FFmpeg.init()
+header = {'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.75 Safari/537.36'} 
 
-isExist = 'isExist'
 def getHandleforDb(host,user,passwd,db):
 	''' Get a handle for database '''
 	try:
@@ -57,6 +57,7 @@ def myReplace(string):
 
 def download(dic,cur,mp,isExist):
 	
+	tmpstring = ''
 	dic['local_url_l'] = ''
 	dic['local_url_h'] = ''
 	dic['local_cover'] = '/home/iptv/audio/cover/notavailable.gif'
@@ -83,19 +84,25 @@ def download(dic,cur,mp,isExist):
 			mp.F_scp('1.jpg',dest)
 			dic['local_cover'] = local_cover
 		try:
-			ret = ( cur.execute('insert into album value("","%s","%s","%s","%s","%s")'  %
-				(dic['category'],dic['albumname'],dic['bitrate'],dic['cover'],dic['local_cover'])
+			sql =  ('insert into album value("","%s","%s","%s","%s","%s");\n'  %
+			(dic['category'],dic['albumname'],dic['bitrate'],dic['cover'],dic['local_cover'])
 				)
-			)
+			cur.execute(sql)
+		
 		except Exception as e:
-			raise e
-			return -1
+			if e[0] == 1062:
+				print "Continue"
+			else:
+				raise e
+				return tmpstring
+		else:
+			tmpstring += sql
 
 	if FFmpeg.getMp3Info(dic['url_l']):
 		local_url_l = localdir + dic['songname'] + '.mp3'
 		dest = myReplace(local_url_l)
 
-		r = requests.get(dic['url_l'])
+		r = requests.get(dic['url_l'],headers=header)
 		with open("1.mp3","wb") as codel:
 			codel.write(r.content)
 
@@ -108,23 +115,26 @@ def download(dic,cur,mp,isExist):
 		local_url_h  = localdir + dic['songname'] + '(320kbps).mp3'
 		dest = myReplace(local_url_h)
 
-		r = requests.get(dic['url_h'])
-		with open(name_h,"wb") as codeh:
+		r = requests.get(dic['url_h'],headers=header)
+		with open('1.mp3',"wb") as codeh:
 			codeh.write(r.content)
 		print local_url_h
 		dic['local_url_h'] = local_url_h
 		mp.F_scp('1.mp3',dest)
 
 	try:
-		ret = ( cur.execute('insert into music value("","%s","%s","%s","%s","%s","%s","%s")'
+		sql = ( 'insert into music value("","%s","%s","%s","%s","%s","%s","%s");\n'
 			% (dic['albumname'],dic['songname'],dic['singer'],dic['url_h'],dic['url_l'],
 				dic['local_url_h'],dic['local_url_l']) )
-			)
+		cur.execute(sql)
+
 	except Exception as e:
 		raise e
-		return -1
-	
-	return 0
+		return tmpstring
+	else:
+		tmpstring += sql
+
+	return sql
 
 
 def test():
@@ -138,25 +148,30 @@ def test():
 	fmt = logging.Formatter('%(message)s')
 	log.setStreamFmt(fmt)
 	mp = mypexpect.MyPexpect('root','149.202.75.184','pY8w4jPisL8y')
+	
+	fw = open("../sql/indiamp3.sql","a+")
+	fw.write("Start Insert at : " + str(Start) + '\n')
 
 	with conn_local:
 		cur_local_1 = conn_local.cursor()
 		cur_local_2 = conn_local.cursor()
 		cur_server = conn_server.cursor()
 
-		cur1.execute('SELECT * FROM indiamp3')
-#		cur1.execute("SELECT * FROM indiamp3 WHERE albumname='1920 (2008)'")
+		cur_local_1.execute('SELECT * FROM indiamp3')
+#		cur_local_1.execute("SELECT * FROM indiamp3 WHERE albumname='1920 (2008)'")
 		i = 0
 		while True:
 			dic = cur_local_1.fetchone()
 			if dic:
 				if dic['download'] == 'N':
 					try:
-						download(dic,cur_server,mp,isExist)
-					except Exception:
-						log.exception("Insert Fail due to")
-#					print dic
+						string = download(dic,cur_server,mp,isExist)
+						conn_server.commit()
+					except Exception,e:
+						log.exception("Some Error as")
 					else:
+						fw.write(string)
+						fw.flush()
 						update = "UPDATE indiamp3 SET download='Y' where no=%d" % dic['no']
 						cur_local_2.execute(update)
 
@@ -170,7 +185,8 @@ def test():
 		cur_local_1.close()
 		cur_local_2.close()
 		cur_server.close()
-
+	conn_server.close()
+	fw.close()
 	End = datetime.datetime.now()
 
 	print End - Start

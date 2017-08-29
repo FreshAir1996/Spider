@@ -246,6 +246,7 @@ def test(url,fp,log):
 		resources = resources[:-2] + ";" + resources[-1:]
 		try:
 			sql = "insert into indiamp3 values \n%s" % resources
+			print sql
 			cur.execute(sql)
 		except Exception as e:
 			print "Save failed as %s" % e
@@ -269,6 +270,8 @@ if __name__ == '__main__':
 	url = 'https://www.indiamp3.com/mix-collection-mp3-songs'
 	url = 'https://www.indiamp3.com/a-flying-jatt-2016-mp3-songs'
 	url = 'https://www.indiamp3.com/guest-in-london-2017-mp3-songs'
+	url = 'https://www.indiamp3.com/inkennallu-2011-mp3-songs'
+	url = 'https://www.indiamp3.com/jassi-sidhu-no-strings-attached-mp3-songs'
 #	url = 'https://www.indiamp3.com/1920-2008-mp3-songs'
 #	url = 'https://www.indiamp3.com/mir-dil-ruba-mp3-songs'
 #	url = 'https://www.indiamp3.com'

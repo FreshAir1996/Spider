@@ -1,0 +1,407 @@
+
+Time:2017-08-28 13:02:35;
+ERROR:Fail Insert due to
+Traceback (most recent call last):
+  File "indiamp3.py", line 150, in test
+    download(dic,cur_server,mp,isExist)
+  File "indiamp3.py", line 87, in download
+    raise e
+IntegrityError: (1062, "Duplicate entry '50 Years Of Indian Independence - Vol 1' for key 'albumname'")
+
+Time:2017-08-28 13:06:00;
+ERROR:Fail Insert due to
+Traceback (most recent call last):
+  File "indiamp3.py", line 150, in test
+    download(dic,cur_server,mp,isExist)
+  File "indiamp3.py", line 101, in download
+    mp.F_scp('1.mp3',dest)
+  File "/home/user/spider/audio/server/indiamp3/mypexpect.py", line 70, in F_scp
+    child.expect('password')
+  File "/usr/local/lib/python2.7/site-packages/pexpect/spawnbase.py", line 321, in expect
+    timeout, searchwindowsize, async)
+  File "/usr/local/lib/python2.7/site-packages/pexpect/spawnbase.py", line 345, in expect_list
+    return exp.expect_loop(timeout)
+  File "/usr/local/lib/python2.7/site-packages/pexpect/expect.py", line 107, in expect_loop
+    return self.timeout(e)
+  File "/usr/local/lib/python2.7/site-packages/pexpect/expect.py", line 70, in timeout
+    raise TIMEOUT(msg)
+TIMEOUT: Timeout exceeded.
+<pexpect.pty_spawn.spawn object at 0x2862dd0>
+command: /usr/bin/scp
+args: [u'/usr/bin/scp', u'1.mp3', u'root@149.202.75.184:/home/iptv/audio/Indian\\ Movies\\ Hindi\\ Mp3\\ Songs/50\\ Years\\ Of\\ Indian\\ Independence\\ -\\ Vol\\ 1/Apni\\ Azadi\\ Ko\\ Hum.mp3']
+buffer (last 100 chars): ''
+before (last 100 chars): ''
+after: <class 'pexpect.exceptions.TIMEOUT'>
+match: None
+match_index: None
+exitstatus: None
+flag_eof: False
+pid: 3381
+child_fd: 9
+closed: False
+timeout: 30
+delimiter: <class 'pexpect.exceptions.EOF'>
+logfile: None
+logfile_read: <open file '<stdout>', mode 'w' at 0x7f33f27d2150>
+logfile_send: None
+maxread: 2000
+ignorecase: False
+searchwindowsize: None
+delaybeforesend: 0.05
+delayafterclose: 0.1
+delayafterterminate: 0.1
+searcher: searcher_re:
+    0: re.compile("password")
+
+Time:2017-08-28 13:08:55;
+ERROR:Fail Insert due to
+Traceback (most recent call last):
+  File "indiamp3.py", line 150, in test
+    download(dic,cur_server,mp,isExist)
+  File "indiamp3.py", line 101, in download
+    mp.F_scp('1.mp3',dest)
+  File "/home/user/spider/audio/server/indiamp3/mypexpect.py", line 73, in F_scp
+    child.expect(pexpect.EOF)
+  File "/usr/local/lib/python2.7/site-packages/pexpect/spawnbase.py", line 321, in expect
+    timeout, searchwindowsize, async)
+  File "/usr/local/lib/python2.7/site-packages/pexpect/spawnbase.py", line 345, in expect_list
+    return exp.expect_loop(timeout)
+  File "/usr/local/lib/python2.7/site-packages/pexpect/expect.py", line 107, in expect_loop
+    return self.timeout(e)
+  File "/usr/local/lib/python2.7/site-packages/pexpect/expect.py", line 70, in timeout
+    raise TIMEOUT(msg)
+TIMEOUT: Timeout exceeded.
+<pexpect.pty_spawn.spawn object at 0x2c54210>
+command: /usr/bin/scp
+args: [u'/usr/bin/scp', u'1.mp3', u'root@149.202.75.184:/home/iptv/audio/Indian\\ Movies\\ Hindi\\ Mp3\\ Songs/50\\ Years\\ Of\\ Indian\\ Independence\\ -\\ Vol\\ 1/Mere\\ Desh\\ Ki\\ Dharti.mp3']
+buffer (last 100 chars): '53.9KB/s   00:24 ETA\r1.mp3                                          41% 2704KB 138.6KB/s - stalled -'
+before (last 100 chars): '53.9KB/s   00:24 ETA\r1.mp3                                          41% 2704KB 138.6KB/s - stalled -'
+after: <class 'pexpect.exceptions.TIMEOUT'>
+match: None
+match_index: None
+exitstatus: None
+flag_eof: False
+pid: 3387
+child_fd: 10
+closed: False
+timeout: 30
+delimiter: <class 'pexpect.exceptions.EOF'>
+logfile: None
+logfile_read: <open file '<stdout>', mode 'w' at 0x7f33f27d2150>
+logfile_send: None
+maxread: 2000
+ignorecase: False
+searchwindowsize: None
+delaybeforesend: 0.05
+delayafterclose: 0.1
+delayafterterminate: 0.1
+searcher: searcher_re:
+    0: EOF
+
+Time:2017-08-28 13:12:18;
+ERROR:Fail Insert due to
+Traceback (most recent call last):
+  File "indiamp3.py", line 150, in test
+    download(dic,cur_server,mp,isExist)
+  File "indiamp3.py", line 101, in download
+    mp.F_scp('1.mp3',dest)
+  File "/home/user/spider/audio/server/indiamp3/mypexpect.py", line 73, in F_scp
+    child.expect(pexpect.EOF)
+  File "/usr/local/lib/python2.7/site-packages/pexpect/spawnbase.py", line 321, in expect
+    timeout, searchwindowsize, async)
+  File "/usr/local/lib/python2.7/site-packages/pexpect/spawnbase.py", line 345, in expect_list
+    return exp.expect_loop(timeout)
+  File "/usr/local/lib/python2.7/site-packages/pexpect/expect.py", line 107, in expect_loop
+    return self.timeout(e)
+  File "/usr/local/lib/python2.7/site-packages/pexpect/expect.py", line 70, in timeout
+    raise TIMEOUT(msg)
+TIMEOUT: Timeout exceeded.
+<pexpect.pty_spawn.spawn object at 0x2862dd0>
+command: /usr/bin/scp
+args: [u'/usr/bin/scp', u'1.mp3', u'root@149.202.75.184:/home/iptv/audio/Indian\\ Movies\\ Hindi\\ Mp3\\ Songs/50\\ Years\\ Of\\ Indian\\ Independence\\ -\\ Vol\\ 1/Ye\\ Desh\\ Hain\\ Veer\\ Jawanon\\ Ka.mp3']
+buffer (last 100 chars): '.1MB/s   00:00 ETA\r1.mp3                                         100% 3613KB 401.5KB/s   00:09    \r\n'
+before (last 100 chars): '.1MB/s   00:00 ETA\r1.mp3                                         100% 3613KB 401.5KB/s   00:09    \r\n'
+after: <class 'pexpect.exceptions.TIMEOUT'>
+match: None
+match_index: None
+exitstatus: None
+flag_eof: False
+pid: 3400
+child_fd: 9
+closed: False
+timeout: 30
+delimiter: <class 'pexpect.exceptions.EOF'>
+logfile: None
+logfile_read: <open file '<stdout>', mode 'w' at 0x7f33f27d2150>
+logfile_send: None
+maxread: 2000
+ignorecase: False
+searchwindowsize: None
+delaybeforesend: 0.05
+delayafterclose: 0.1
+delayafterterminate: 0.1
+searcher: searcher_re:
+    0: EOF
+
+Time:2017-08-28 13:17:47;
+ERROR:Fail Insert due to
+Traceback (most recent call last):
+  File "indiamp3.py", line 150, in test
+    download(dic,cur_server,mp,isExist)
+  File "indiamp3.py", line 112, in download
+    mp.F_scp('1.mp3',dest)
+  File "/home/user/spider/audio/server/indiamp3/mypexpect.py", line 73, in F_scp
+    child.expect(pexpect.EOF)
+  File "/usr/local/lib/python2.7/site-packages/pexpect/spawnbase.py", line 321, in expect
+    timeout, searchwindowsize, async)
+  File "/usr/local/lib/python2.7/site-packages/pexpect/spawnbase.py", line 345, in expect_list
+    return exp.expect_loop(timeout)
+  File "/usr/local/lib/python2.7/site-packages/pexpect/expect.py", line 107, in expect_loop
+    return self.timeout(e)
+  File "/usr/local/lib/python2.7/site-packages/pexpect/expect.py", line 70, in timeout
+    raise TIMEOUT(msg)
+TIMEOUT: Timeout exceeded.
+<pexpect.pty_spawn.spawn object at 0x2caca90>
+command: /usr/bin/scp
+args: [u'/usr/bin/scp', u'1.mp3', u'root@149.202.75.184:/home/iptv/audio/Indian\\ Movies\\ Hindi\\ Mp3\\ Songs/A\\ Flying\\ Jatt\\ \\(2016\\)/Beat\\ Pe\\ Booty\\(320kbps\\).mp3']
+buffer (last 100 chars): '.3KB/s   00:00 ETA\r1.mp3                                         100% 7810KB 278.9KB/s   00:28    \r\n'
+before (last 100 chars): '.3KB/s   00:00 ETA\r1.mp3                                         100% 7810KB 278.9KB/s   00:28    \r\n'
+after: <class 'pexpect.exceptions.TIMEOUT'>
+match: None
+match_index: None
+exitstatus: None
+flag_eof: False
+pid: 3411
+child_fd: 10
+closed: False
+timeout: 30
+delimiter: <class 'pexpect.exceptions.EOF'>
+logfile: None
+logfile_read: <open file '<stdout>', mode 'w' at 0x7f33f27d2150>
+logfile_send: None
+maxread: 2000
+ignorecase: False
+searchwindowsize: None
+delaybeforesend: 0.05
+delayafterclose: 0.1
+delayafterterminate: 0.1
+searcher: searcher_re:
+    0: EOF
+
+Time:2017-08-28 13:18:52;
+ERROR:Fail Insert due to
+Traceback (most recent call last):
+  File "indiamp3.py", line 150, in test
+    download(dic,cur_server,mp,isExist)
+  File "indiamp3.py", line 101, in download
+    mp.F_scp('1.mp3',dest)
+  File "/home/user/spider/audio/server/indiamp3/mypexpect.py", line 70, in F_scp
+    child.expect('password')
+  File "/usr/local/lib/python2.7/site-packages/pexpect/spawnbase.py", line 321, in expect
+    timeout, searchwindowsize, async)
+  File "/usr/local/lib/python2.7/site-packages/pexpect/spawnbase.py", line 345, in expect_list
+    return exp.expect_loop(timeout)
+  File "/usr/local/lib/python2.7/site-packages/pexpect/expect.py", line 107, in expect_loop
+    return self.timeout(e)
+  File "/usr/local/lib/python2.7/site-packages/pexpect/expect.py", line 70, in timeout
+    raise TIMEOUT(msg)
+TIMEOUT: Timeout exceeded.
+<pexpect.pty_spawn.spawn object at 0x28626d0>
+command: /usr/bin/scp
+args: [u'/usr/bin/scp', u'1.mp3', u'root@149.202.75.184:/home/iptv/audio/Indian\\ Movies\\ Hindi\\ Mp3\\ Songs/A\\ Flying\\ Jatt\\ \\(2016\\)/Bhangda\\ Pa.mp3']
+buffer (last 100 chars): ''
+before (last 100 chars): ''
+after: <class 'pexpect.exceptions.TIMEOUT'>
+match: None
+match_index: None
+exitstatus: None
+flag_eof: False
+pid: 3413
+child_fd: 9
+closed: False
+timeout: 30
+delimiter: <class 'pexpect.exceptions.EOF'>
+logfile: None
+logfile_read: <open file '<stdout>', mode 'w' at 0x7f33f27d2150>
+logfile_send: None
+maxread: 2000
+ignorecase: False
+searchwindowsize: None
+delaybeforesend: 0.05
+delayafterclose: 0.1
+delayafterterminate: 0.1
+searcher: searcher_re:
+    0: re.compile("password")
+
+Time:2017-08-28 13:19:09;
+ERROR:Fail Insert due to
+Traceback (most recent call last):
+  File "indiamp3.py", line 150, in test
+    download(dic,cur_server,mp,isExist)
+  File "indiamp3.py", line 94, in download
+    r = requests.get(dic['url_l'])
+  File "/usr/local/lib/python2.7/site-packages/requests/api.py", line 72, in get
+    return request('get', url, params=params, **kwargs)
+  File "/usr/local/lib/python2.7/site-packages/requests/api.py", line 58, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/usr/local/lib/python2.7/site-packages/requests/sessions.py", line 508, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/local/lib/python2.7/site-packages/requests/sessions.py", line 618, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/local/lib/python2.7/site-packages/requests/adapters.py", line 506, in send
+    raise SSLError(e, request=request)
+SSLError: HTTPSConnectionPool(host='www.indiamp3.com', port=443): Max retries exceeded with url: /audio/Indian%20Movies/Indian%20Movies%20Hindi%20Mp3%20Songs/A%20Flying%20Jatt%20(2016)/songs/Raj%20Karega%20Khalsa%20(128%20Kbps)%20-%20Daler%20Mehndi%20-%20Navraj%20Hans.mp3 (Caused by SSLError(SSLError("bad handshake: SysCallError(104, 'ECONNRESET')",),))
+
+Time:2017-08-28 13:20:38;
+ERROR:Fail Insert due to
+Traceback (most recent call last):
+  File "indiamp3.py", line 150, in test
+    download(dic,cur_server,mp,isExist)
+  File "indiamp3.py", line 112, in download
+    mp.F_scp('1.mp3',dest)
+  File "/home/user/spider/audio/server/indiamp3/mypexpect.py", line 73, in F_scp
+    child.expect(pexpect.EOF)
+  File "/usr/local/lib/python2.7/site-packages/pexpect/spawnbase.py", line 321, in expect
+    timeout, searchwindowsize, async)
+  File "/usr/local/lib/python2.7/site-packages/pexpect/spawnbase.py", line 345, in expect_list
+    return exp.expect_loop(timeout)
+  File "/usr/local/lib/python2.7/site-packages/pexpect/expect.py", line 107, in expect_loop
+    return self.timeout(e)
+  File "/usr/local/lib/python2.7/site-packages/pexpect/expect.py", line 70, in timeout
+    raise TIMEOUT(msg)
+TIMEOUT: Timeout exceeded.
+<pexpect.pty_spawn.spawn object at 0x2862dd0>
+command: /usr/bin/scp
+args: [u'/usr/bin/scp', u'1.mp3', u'root@149.202.75.184:/home/iptv/audio/Indian\\ Movies\\ Hindi\\ Mp3\\ Songs/A\\ Flying\\ Jatt\\ \\(2016\\)/Toota\\ Jo\\ Kabhi\\ Tara\\(320kbps\\).mp3']
+buffer (last 100 chars): '56.2KB/s   00:26 ETA\r1.mp3                                          44% 5392KB 243.4KB/s   00:27 ETA'
+before (last 100 chars): '56.2KB/s   00:26 ETA\r1.mp3                                          44% 5392KB 243.4KB/s   00:27 ETA'
+after: <class 'pexpect.exceptions.TIMEOUT'>
+match: None
+match_index: None
+exitstatus: None
+flag_eof: False
+pid: 3415
+child_fd: 9
+closed: False
+timeout: 30
+delimiter: <class 'pexpect.exceptions.EOF'>
+logfile: None
+logfile_read: <open file '<stdout>', mode 'w' at 0x7f33f27d2150>
+logfile_send: None
+maxread: 2000
+ignorecase: False
+searchwindowsize: None
+delaybeforesend: 0.05
+delayafterclose: 0.1
+delayafterterminate: 0.1
+searcher: searcher_re:
+    0: EOF
+
+Time:2017-08-28 13:21:51;
+ERROR:Fail Insert due to
+Traceback (most recent call last):
+  File "indiamp3.py", line 150, in test
+    download(dic,cur_server,mp,isExist)
+  File "indiamp3.py", line 101, in download
+    mp.F_scp('1.mp3',dest)
+  File "/home/user/spider/audio/server/indiamp3/mypexpect.py", line 73, in F_scp
+    child.expect(pexpect.EOF)
+  File "/usr/local/lib/python2.7/site-packages/pexpect/spawnbase.py", line 321, in expect
+    timeout, searchwindowsize, async)
+  File "/usr/local/lib/python2.7/site-packages/pexpect/spawnbase.py", line 345, in expect_list
+    return exp.expect_loop(timeout)
+  File "/usr/local/lib/python2.7/site-packages/pexpect/expect.py", line 107, in expect_loop
+    return self.timeout(e)
+  File "/usr/local/lib/python2.7/site-packages/pexpect/expect.py", line 70, in timeout
+    raise TIMEOUT(msg)
+TIMEOUT: Timeout exceeded.
+<pexpect.pty_spawn.spawn object at 0x2cac9d0>
+command: /usr/bin/scp
+args: [u'/usr/bin/scp', u'1.mp3', u'root@149.202.75.184:/home/iptv/audio/Indian\\ Movies\\ Hindi\\ Mp3\\ Songs/Maa\\ Ka\\ Aanchal\\ \\(1970\\)/Maa\\ Ka\\ Aanchal\\ \\(1970\\)\\ -\\ Bhanwar\\ Mein\\ Meri\\ Naiyya.mp3']
+buffer (last 100 chars): '.1KB/s   00:00 ETA\r1.mp3                                         100% 3278KB 182.1KB/s   00:18    \r\n'
+before (last 100 chars): '.1KB/s   00:00 ETA\r1.mp3                                         100% 3278KB 182.1KB/s   00:18    \r\n'
+after: <class 'pexpect.exceptions.TIMEOUT'>
+match: None
+match_index: None
+exitstatus: None
+flag_eof: False
+pid: 3422
+child_fd: 10
+closed: False
+timeout: 30
+delimiter: <class 'pexpect.exceptions.EOF'>
+logfile: None
+logfile_read: <open file '<stdout>', mode 'w' at 0x7f33f27d2150>
+logfile_send: None
+maxread: 2000
+ignorecase: False
+searchwindowsize: None
+delaybeforesend: 0.05
+delayafterclose: 0.1
+delayafterterminate: 0.1
+searcher: searcher_re:
+    0: EOF
+
+Time:2017-08-28 13:22:49;
+ERROR:Fail Insert due to
+Traceback (most recent call last):
+  File "indiamp3.py", line 150, in test
+    download(dic,cur_server,mp,isExist)
+  File "indiamp3.py", line 101, in download
+    mp.F_scp('1.mp3',dest)
+  File "/home/user/spider/audio/server/indiamp3/mypexpect.py", line 73, in F_scp
+    child.expect(pexpect.EOF)
+  File "/usr/local/lib/python2.7/site-packages/pexpect/spawnbase.py", line 321, in expect
+    timeout, searchwindowsize, async)
+  File "/usr/local/lib/python2.7/site-packages/pexpect/spawnbase.py", line 345, in expect_list
+    return exp.expect_loop(timeout)
+  File "/usr/local/lib/python2.7/site-packages/pexpect/expect.py", line 107, in expect_loop
+    return self.timeout(e)
+  File "/usr/local/lib/python2.7/site-packages/pexpect/expect.py", line 70, in timeout
+    raise TIMEOUT(msg)
+TIMEOUT: Timeout exceeded.
+<pexpect.pty_spawn.spawn object at 0x2862dd0>
+command: /usr/bin/scp
+args: [u'/usr/bin/scp', u'1.mp3', u'root@149.202.75.184:/home/iptv/audio/Indian\\ Movies\\ Hindi\\ Mp3\\ Songs/Maa\\ Ka\\ Aanchal\\ \\(1970\\)/Maa\\ Ka\\ Aanchal\\ \\(1970\\)\\ -\\ Jaane\\ Kya\\ Haal\\ Ho.mp3']
+buffer (last 100 chars): '.4KB/s - stalled -\r1.mp3                                         100% 3205KB 118.7KB/s   00:27    \r\n'
+before (last 100 chars): '.4KB/s - stalled -\r1.mp3                                         100% 3205KB 118.7KB/s   00:27    \r\n'
+after: <class 'pexpect.exceptions.TIMEOUT'>
+match: None
+match_index: None
+exitstatus: None
+flag_eof: False
+pid: 3425
+child_fd: 9
+closed: False
+timeout: 30
+delimiter: <class 'pexpect.exceptions.EOF'>
+logfile: None
+logfile_read: <open file '<stdout>', mode 'w' at 0x7f33f27d2150>
+logfile_send: None
+maxread: 2000
+ignorecase: False
+searchwindowsize: None
+delaybeforesend: 0.05
+delayafterclose: 0.1
+delayafterterminate: 0.1
+searcher: searcher_re:
+    0: EOF
+
+Time:2017-08-28 13:23:12;
+ERROR:Fail Insert due to
+Traceback (most recent call last):
+  File "indiamp3.py", line 150, in test
+    download(dic,cur_server,mp,isExist)
+  File "indiamp3.py", line 94, in download
+    r = requests.get(dic['url_l'])
+  File "/usr/local/lib/python2.7/site-packages/requests/api.py", line 72, in get
+    return request('get', url, params=params, **kwargs)
+  File "/usr/local/lib/python2.7/site-packages/requests/api.py", line 58, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/usr/local/lib/python2.7/site-packages/requests/sessions.py", line 508, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/local/lib/python2.7/site-packages/requests/sessions.py", line 618, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/local/lib/python2.7/site-packages/requests/adapters.py", line 490, in send
+    raise ConnectionError(err, request=request)
+ConnectionError: ('Connection aborted.', BadStatusLine("''",))

@@ -6,6 +6,9 @@ url = 'https://www.indiamp3.com/audio/Indian%20Movies/Indian%20Movies%20Hindi%20
 url = 'https://www.indiamp3.com/audio/Indian%20Movies/Indian%20Movies%20Hindi%20Mp3%20Songs/Laadla/songs/Dhik%20Ta%20Na%20Na%20(IndiaMp3.com).mp3'
 url = 'https://www.indiamp3.com/audio/Indian Movies/Indian Movies Hindi Mp3 Songs/Hulchal/songs/Dekho Zara .mp3'
 url = 'https://www.indiamp3.com/audio/Indian Oldies/Hindi Old Mp3 Songs/Mix Collection/songs/mukeshrajth.wma'
+url = 'https://www.indiamp3.com/audio/Afghani Songs/Afghani Mp3 Songs Collection/Sharif Rahimi (Album)/songs/Salu Mi Rawrra  & Nakoni Bahana Lailoma (pashto Farsi) @ IndiaMp3.Com.mp3'
+url = 'https://www.indiamp3.com/audio/Punjabi Bhangra Songs/Punjabi And Bhangra Mp3 Songs/21st Century Jugni - Arif Lohar/songs/Sorry.mp3'
+url = 'https://www.indiamp3.com/audio/Punjabi Bhangra Songs/Punjabi And Bhangra Mp3 Songs/21st Century Jugni - Arif Lohar/songs/Soniyei.mp3'
 url = url.replace(' ','%20')
 url2='https://www.indiamp3.com/audio/Tamil Songs/Tamil Mp3 Songs/A Aa (2016)/A Aa (2016)/Anasuya Kosam @ IndiaMp3.Com.mp3'
 url3='rtmp://51.254.198.119/live/?sn=1234/FR_FRANCE_3'
